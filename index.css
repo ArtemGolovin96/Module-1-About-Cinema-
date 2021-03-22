@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Верхний контейнер с заголовком */
+
+
+.a-par-container {
+    margin: 125px 180px 0px 150px;  /* <----- При склейке использовать это */
+    font-family: 'Roboto Slab', serif;
+}
+
+.a-head-container {
+    display: flex;
+    padding-left: 100px;
+    margin-bottom: 104px;
+    white-space: nowrap;
+}
+
+.a-course-name {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    margin: 0px 185px 0px 0px;
+}
+
+.a-design-line {
+    width: 630px;
+    height: 14px;
+    background-color: black ;
+    margin: 33px 0px 0px 0px;
+}
+
+
+/* Основной блок с item's */
+
+.a-super-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 45px;
+}
+
+.a-big-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.a-big-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px 0px 0px 0px;
+}
+
+
+
+.a-item {
+    height: 328px;
+    width: 399px;
+    margin: 21px 20px 20px 18px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+
+}
+
+.a-item-name {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;        
+    margin: 8px 0px 0px 21px;
+}
+
+.a-date-item {
+    font-size: 25px;
+    margin: 35px 5px 0px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a-autor-item {
+    font-size: 25px;
+    margin: 3px 0px 0px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#big-size-name {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;        
+    margin: 10px 0px 0px 20px;
+    line-height: 1em
+}
+
+#big-size-date {
+    font-size: 25px;
+    margin:10px 5px 0px 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#big-size-autor {
+    font-size: 25px;
+    margin: 3px 0px 0px 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Дополнитльная картинка */
+
+
+.a-img-container {
+    position: relative;
+    left: 1035px;
+    bottom: 110.5px;
+}
