@@ -205,3 +205,73 @@ body {
     text-align: right;
     margin: 0 0 15px 0;
 }
+
+#v-center-conteiner-1 {
+    margin: 90px 108px;
+}
+
+#v-h1-format {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;    
+}
+
+#v-center-conteiner-2 {
+    margin: 115px 112px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.v-par-center-1 {
+    color: rgba(30, 70, 129, 1);
+    font-weight: 700;
+    font-size: 25px;
+    width: 250px;
+    margin: 0 70px 10px 0;
+}
+
+.v-par-center-2 {
+    font-size: 18px;
+    width: 270px;
+    margin: 0 70px 0 0;
+}
+
+#v-sub-center-3 {
+    margin: 0 0 0 35px;
+}
+
+#v-img-aktery {
+    position: relative;
+    left: 835px;
+    top: 45px;
+}
+
+#v-center-conteiner-3 {
+    margin: -112px 112px 0 112px;
+}
+
+#v-h1-format {
+    margin: 36.850px 0 15px 0;
+}
+
+#v-center-conteiner-5 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 112px 0 125px;
+}
+
+#v-spisok {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#v-spisok-ul {
+    padding: 0; 
+    margin-left: 5px;
+}
+
+#v-img-postanovka {
+    margin: 185px 0 0 40px;
+}
