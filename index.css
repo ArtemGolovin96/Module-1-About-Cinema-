@@ -5,7 +5,10 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-#v-main-conteiner-1 {
+/* -----------------------------------------------------------------------------------*/
+/* стилизация раздела "О КУРСЕ" */
+
+#v-main-conteiner-1 {               /* разделен на два контейнера */
     margin: 91px 112px;
     display: flex;
     flex-direction: row;
@@ -17,17 +20,17 @@ body {
     flex-direction: row;
 }
 
-#v-conteiner-1 {
+#v-conteiner-1 {       
     width: 610px;
 }
 
-#v-h1 {
+#v-h1 {                                     /* стилизация заголовка "О КУРСЕ" */
     font-family: 'Roboto Slab', serif;
     font-size: 56px;    
     margin: 140px 0 37px 0;
 }
 
-.v-par-1 {
+.v-par-1 {                                 /* описание "О КУРСЕ" часть 1*/
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     margin: 0 0 0 0;
@@ -37,7 +40,7 @@ body {
     width: 672px;
 }
 
-.v-par-2 {
+.v-par-2 {                                     /* описание "О КУРСЕ" часть 2*/
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     margin: 40px 0 0 0;
@@ -47,7 +50,7 @@ body {
     width: 663px;  
 }
 
-#v-conteiner-2 {
+#v-conteiner-2 {                           /*  "О КУРСЕ" содеоржит картинку и описание занятий*/
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row;
@@ -57,7 +60,7 @@ body {
     left: 10px;
 }
 
-#v-sub-conteiner-0 {
+#v-sub-conteiner-0 {            /* выравнивание каждого отдельного списка*/
     display: flex;
     flex-direction: column;
     position: relative;
@@ -65,7 +68,7 @@ body {
     left: 3px; 
 }
 
-#v-sub-conteiner-1 {
+#v-sub-conteiner-1 {   
     display: flex;
     flex-direction: column;
     margin: 55px 0 0 60px;
@@ -92,7 +95,7 @@ body {
     right: 3px;
 }
 
-.v-par-3 {
+.v-par-3 {                 /* стилизация шрифтов параграфов */
     font-weight: 800;
     font-size: 24px;
     width: 140px;
@@ -102,8 +105,8 @@ body {
     left: 9px;
 }
 
-.v-par-4 {
-    font-size: 18px;
+.v-par-4 {                   /* стилизация шрифтов параграфов */
+    font-size: 18px; 
     width: 150px;
     margin: 0 60px 0 30px;
     position: relative;
@@ -132,24 +135,25 @@ body {
     left: 52px;
     top: 150px;
 }
+/* -----------------------------------------------------------------------------------*/
 
-#v-sinhron-img {
+#v-sinhron-img {                       /* самая верхняя картинка 1 раздела*/
     margin: 21px 0 97px 115px;
 }
 
-.v-date {
+.v-date {                                /* шрифт первого раздела*/
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     margin: 3px 40px 0 10px;
 }
 
-#v-date-conteiner {
+#v-date-conteiner {                 /* контейнер с датой курса*/
     display: flex;
     flex-direction: row;
     margin: 0 0 0 115px;
 }
 
-#v-h1-main {
+#v-h1-main {                            /* заголовок первого раздела*/
     font-family: 'Roboto Slab', serif;
     font-size: 78px;    
     margin: 20px 0 25px 115px;
@@ -157,27 +161,27 @@ body {
     line-height: 105%;
 }
 
-#v-start-conteiner-owner {
+#v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
     display: flex;
     flex-direction: row;
 }
 
-#v-p-spitch {
-    font-family: 'Roboto', sans-serif;
+#v-p-spitch {                       /* стилизация вступления 1 раздела*/
+    font-family: 'Roboto', sans-serif; 
     font-size: 20px;
     margin: 0 0 25px 115px;
     width: 420px;
     line-height: 150%;
 }
 
-#v-director {
+#v-director {                      /* картинка режиссер */
     width: 296px;
     margin: 0 0 0 180px;
     position: relative;
     top: 15px;
 }
 
-#v-start-conteiner-quote {
+#v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
     font-family: 'Roboto Slab', serif;
     background-color: #1E4681;
     border-radius: 5px;
@@ -192,37 +196,37 @@ body {
     box-sizing: border-box;
 }
 
-#v-quote {
+#v-quote {                     /* стиль цитаты */
     font-size: 25px;
     font-weight: 300;
     margin: 5px 0;
 }
 
-#v-autor {
+#v-autor {                             /* стиль подписи в цитате*/
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-align: right;
     margin: 0 0 15px 0;
 }
-
-#v-center-conteiner-1 {
+/* -----------------------------------------------------------------------------------*/
+#v-center-conteiner-1 {               /* стилизация раздела "Формат занятий" */
     margin: 90px 108px;
 }
 
-#v-h1-format {
+#v-h1-format {                  /* заголовок раздела "Формат занятий" */
     font-family: 'Roboto Slab', serif;
     font-size: 55px;    
 }
 
-#v-center-conteiner-2 {
+#v-center-conteiner-2 {           /* стилизация контейнеров "Формат занятий" */        
     margin: 115px 112px;
     display: flex;
     flex-direction: row;
     font-family: 'Roboto', sans-serif;
 }
 
-.v-par-center-1 {
+.v-par-center-1 {                /* верхний параграф "Формат занятий" */ 
     color: rgba(30, 70, 129, 1);
     font-weight: 700;
     font-size: 25px;
@@ -230,7 +234,7 @@ body {
     margin: 0 70px 10px 0;
 }
 
-.v-par-center-2 {
+.v-par-center-2 {               /* нижний параграф "Формат занятий" */ 
     font-size: 18px;
     width: 270px;
     margin: 0 70px 0 0;
@@ -246,7 +250,8 @@ body {
     top: 45px;
 }
 
-#v-center-conteiner-3 {
+/* -----------------------------------------------------------------------------------*/
+#v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
     margin: -112px 112px 0 112px;
 }
 
@@ -254,13 +259,13 @@ body {
     margin: 36.850px 0 15px 0;
 }
 
-#v-center-conteiner-5 {
+#v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
     display: flex;
     flex-direction: row;
     margin: 0 112px 0 125px;
 }
 
-#v-spisok {
+#v-spisok {                                /* список из раздела "Что узнаем" */
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -272,6 +277,8 @@ body {
     margin-left: 5px;
 }
 
-#v-img-postanovka {
+#v-img-postanovka {               
     margin: 185px 0 0 40px;
 }
+
+/* -----------------------------------------------------------------------------------*/
