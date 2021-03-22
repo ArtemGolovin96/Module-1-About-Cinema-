@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.z-tiles-gray{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.z-block{
+    width:70%;
+    height: 100%;       
+}
+.z-block2{
+    width: 75%;
+    margin: auto;
+    height: 100%;
+          
+}
+.z-infa{
+    background-color: white;
+    height: 451px;
+    width: 791px;
+    border-radius: 30px;
+}
+.z-infa p{
+    font-size: 20px;
+    padding: 2em;
+    line-height: 150%;
+    
+    
+}
+.z-block2 h2{
+    padding-top: 1.8em;
+    font-size: 55px;
+}
+.item-img{
+    display: flex;
+}
+.amg {
+    display: flex;
+    flex-direction: column;
+    
+}
+a img{
+    margin-top: 40px;
+}
+.name{
+    padding-top: 40px;
+}
+.z-tiles-green{
+    background-color: #9DC9C8;
+    height: 100vh;
+}
+.z-block-green{
+    width:70%;
+    height: 100%;
+}
+.z-block2-green{
+    width: 75%;
+    margin: auto;
+    height: 100%;
+}
+.z-block2-green h2{
+    padding-top: 1.8em;
+    font-size: 55px;
+}
