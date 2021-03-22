@@ -6,13 +6,13 @@ body {
 }
 
 #v-main-conteiner-1 {
-    margin: 91px 124px;
+    margin: 91px 112px;
     display: flex;
     flex-direction: row;
 }
 
 #v-main-conteiner-2 {
-    margin: 91px 124px;
+    margin: 75px 110px;
     display: flex;
     flex-direction: row;
 }
@@ -24,7 +24,7 @@ body {
 #v-h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 56px;    
-    margin: 0 0 40px 0;
+    margin: 140px 0 37px 0;
 }
 
 .v-par-1 {
@@ -62,7 +62,7 @@ body {
     flex-direction: column;
     position: relative;
     top: 28px;
-    left: 3px;
+    left: 3px; 
 }
 
 #v-sub-conteiner-1 {
@@ -71,7 +71,7 @@ body {
     margin: 55px 0 0 60px;
     position: relative;
     top: 27px;
-    left: 6px;
+    left: 1px;
 }
 
 #v-sub-conteiner-2 {
@@ -80,7 +80,7 @@ body {
     margin: 55px 0 0 0;
     position: relative;
     top: 28px;
-    left: 10px;
+    left: 1px;
 }
 
 #v-sub-conteiner-3 {
@@ -89,7 +89,7 @@ body {
     margin: 55px 0 0 0;
     position: relative;
     top: 28px;
-    left: 13px;
+    right: 3px;
 }
 
 .v-par-3 {
@@ -116,7 +116,7 @@ body {
 }
 
 #v-img-2 {
-    width: 232px;
+    width: 230px;
     position: relative;
     top: 18px;
     right: 32px;
@@ -129,7 +129,79 @@ body {
 #v-conteiner-3 {
     margin: 130px 0 0 140px;
     position: relative;
-    left: 75px;
+    left: 52px;
+    top: 150px;
+}
+
+#v-sinhron-img {
+    margin: 21px 0 97px 115px;
+}
+
+.v-date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    margin: 3px 40px 0 10px;
+}
+
+#v-date-conteiner {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 115px;
+}
+
+#v-h1-main {
+    font-family: 'Roboto Slab', serif;
+    font-size: 78px;    
+    margin: 20px 0 25px 115px;
+    width: 570px;
+    line-height: 105%;
+}
+
+#v-start-conteiner-owner {
+    display: flex;
+    flex-direction: row;
+}
+
+#v-p-spitch {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 0 25px 115px;
+    width: 420px;
+    line-height: 150%;
+}
+
+#v-director {
+    width: 296px;
+    margin: 0 0 0 180px;
+    position: relative;
     top: 15px;
 }
 
+#v-start-conteiner-quote {
+    font-family: 'Roboto Slab', serif;
+    background-color: #1E4681;
+    border-radius: 5px;
+    color: white;
+    width: 473.63px;
+    height: 200px;
+    position: relative;
+    left: 393px;    
+    top: 72.74px;
+    transform: rotate(-4deg);
+    padding: 10px 20px 30px 25px;
+    box-sizing: border-box;
+}
+
+#v-quote {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+#v-autor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: right;
+    margin: 0 0 15px 0;
+}
