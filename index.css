@@ -96,3 +96,49 @@ a img{
 .z-columns2 h3{
     font-size: 25px;
 }
+
+footer{
+    background-color: black;
+    height: 40vh;
+}
+.z-footmain{
+    margin: auto;
+    color: white;
+    width: 80%;
+    display: flex; 
+    justify-content: space-between;   
+
+}
+.z-footmain img{
+    margin-top: 4%;
+    width: 115px;
+    height: 68px;
+}
+.z-foot-img img{
+    width: 34px;
+    height: 34px;
+    margin-right: 18px;
+    /* margin-top: px; */
+    
+}
+.z-footwrapper{
+    /* display: inline; */
+}
+.z-foot-rigts div img{
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+}
+.z-foot-rigts div{
+    display: flex;
+}
+.z-footwrapper img{
+    margin-top: 20%;
+}
+.z-foot-rigts{
+    margin-top: 20px;
+}
+.z-footwrapper p{
+    margin-top: 60%;
+}
+
