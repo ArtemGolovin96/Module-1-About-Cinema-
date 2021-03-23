@@ -121,11 +121,11 @@ body {
 }
 
 #v-img-1 {
-    width: 366px;
+    width: 21.8vw;
 }
 
 #v-img-2 {
-    width: 230px;
+    width: 16.1vw;
     position: relative;
     top: 18px;
     right: 32px;
@@ -182,7 +182,7 @@ body {
 }
 
 #v-director {                      /* картинка режиссер */
-    width: 296px;
+    width: 21vw;
     margin: 0 0 0 180px;
     position: relative;
     top: 15px;
@@ -253,6 +253,7 @@ body {
 }
 
 #v-img-aktery {
+    width: 19.02vw;
     position: relative;
     left: 835px;
     top: 45px;
@@ -288,15 +289,68 @@ body {
 
 #v-img-postanovka {               
     margin: 185px 0 0 40px;
+    width: 25.6vw;
 }
 
 /* -----------------------------------------------------------------------------------*/
 
 @media (min-width: 834px) and (max-width: 1279px){
 
+    #v-director {                      /* картинка режиссер */
+        margin: 0 0 0 162px;
+        width: 22vw;
+    }
+
+    #v-img-1 {
+        width: 25vw;
+        margin: 0 0 0 0px;
+    }
+
+    #v-img-2 {
+        width: 16vw;    
+    }
+
+    #v-sub-conteiner-1 {
+        margin: 55px 0 0 40px;
+    }
+
+    #v-conteiner-3 {
+        margin: 130px 0 0 65px;
+    }
+
+    #v-img-aktery {
+        position: relative;
+        left: 835px;
+        top: 35px;
+        width: 19vw;
+    }
+
+    #v-img-postanovka {
+        margin: 50px auto;
+        position: relative;
+        left: 40px;    
+        top: 125px;
+        width: 26vw;
+    }
+
+    #v-h1-format {
+        font-size: 52px;
+    }
+
+    #v-spisok {                                /* список из раздела "Что узнаем" */
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .v-par-1, .v-par-2 {
+        font-size: 22px;
+    }
+
 } 
 
-@media (min-width: 375px) and (max-width: 991px){
+@media (min-width: 375px) and (max-width: 833px){
     
     #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
         display: flex;
@@ -312,6 +366,7 @@ body {
         margin: 0 0 0 471px;
         position: relative;
         bottom: 315px;
+        width: 38vw;
     }
 
     #v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
@@ -330,6 +385,11 @@ body {
         position: relative;
         left: 0px;
         top: 50px;
+    }
+
+    #v-img-1 {
+        width: 39.2vw;
+        margin: 0 auto;
     }
 
     #v-conteiner-2 {                   /*  "О КУРСЕ" стилизация контейнеров */
@@ -352,7 +412,11 @@ body {
         position: absolute;
         top: 138px;
         left: 490px; 
-        margin: 0;  
+        margin: 0;
+    }
+
+    #v-img-2 {
+        width: 29vw;
     }
 
     #v-sub-conteiner-1, #v-sub-conteiner-2, #v-sub-conteiner-3 {
@@ -389,6 +453,7 @@ body {
         position: absolute;
         top: 3130px;
         left: 455px;
+        width: 34vw;
     }
 
     #v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
@@ -405,6 +470,7 @@ body {
         margin: 50px auto;
         position: relative;
         left: 110px;    
+        width: 39vw;
     }
 
     
