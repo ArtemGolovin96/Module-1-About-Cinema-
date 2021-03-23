@@ -166,6 +166,9 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+.badge2{
+    display: none;
+}
 .telephon {
     font-size: 25px;
     margin: 30px 50px 10px 10px;
@@ -369,6 +372,9 @@ footer{
         margin-bottom: 0;
        
     }
+    .badge2{
+        display: none;
+    }
     .telephon {
         font-size: 14px;
         margin: 16px 24px 10px 10px;
@@ -392,7 +398,9 @@ footer{
     }
 }
 @media (max-width:  833px ) and (min-width: 375px){
-
+    body{
+        min-width: 375px;
+    }
     .z-tiles-gray{
         background-color: #EFEFEF;
         width: 100%;
