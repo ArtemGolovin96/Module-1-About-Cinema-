@@ -6,12 +6,13 @@ body {
 }
 
 /* -----------------------------------------------------------------------------------*/
-/* стилизация раздела "О КУРСЕ" */
+                           /* стилизация раздела "О КУРСЕ" */
 
 #v-main-conteiner-1 {               /* разделен на два контейнера */
     margin: 91px 112px;
     display: flex;
     flex-direction: row;
+    width: 90%;
 }
 
 #v-main-conteiner-2 {
@@ -58,6 +59,11 @@ body {
     position: relative;
     bottom: 80px;
     left: 10px;
+}
+
+#v-sub-sub-cont {
+    display: flex;
+    flex-direction: row;
 }
 
 #v-sub-conteiner-0 {            /* выравнивание каждого отдельного списка*/
@@ -137,7 +143,7 @@ body {
 }
 /* -----------------------------------------------------------------------------------*/
 
-#v-sinhron-img {                       /* самая верхняя картинка 1 раздела*/
+#v-sinhron-img {                  /* самая верхняя картинка 1 раздела "Как смотреть кино" */
     margin: 21px 0 97px 115px;
 }
 
@@ -164,6 +170,7 @@ body {
 #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
     display: flex;
     flex-direction: row;
+    width: 85%;
 }
 
 #v-p-spitch {                       /* стилизация вступления 1 раздела*/
@@ -224,6 +231,7 @@ body {
     display: flex;
     flex-direction: row;
     font-family: 'Roboto', sans-serif;
+    width: 81%;
 }
 
 .v-par-center-1 {                /* верхний параграф "Формат занятий" */ 
@@ -263,6 +271,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0 112px 0 125px;
+    width: 87%;
 }
 
 #v-spisok {                                /* список из раздела "Что узнаем" */
@@ -282,3 +291,121 @@ body {
 }
 
 /* -----------------------------------------------------------------------------------*/
+
+@media (min-width: 834px) and (max-width: 1279px){
+
+} 
+
+@media (min-width: 375px) and (max-width: 991px){
+    
+    #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    #v-p-spitch {                       /* стилизация вступления 1 раздела*/
+        margin: 0 0 0px 115px;
+    }
+
+    #v-director {                      /* картинка режиссер */
+        margin: 0 0 0 471px;
+        position: relative;
+        bottom: 315px;
+    }
+
+    #v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
+        position: relative;
+        left: 112px;    
+        top: 102.74px;
+    }
+
+    #v-main-conteiner-1 {               /* разделен на два контейнера */
+        display: flex;
+        flex-direction: column;
+    }
+
+    #v-conteiner-3 {
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+
+    #v-conteiner-2 {                   /*  "О КУРСЕ" стилизация контейнеров */
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 20px; 
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #v-sub-sub-cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 550px;
+    }
+
+    #v-sub-conteiner-0 {            
+        position: absolute;
+        top: 138px;
+        left: 490px; 
+        margin: 0;  
+    }
+
+    #v-sub-conteiner-1, #v-sub-conteiner-2, #v-sub-conteiner-3 {
+        margin: 0;
+    }
+
+    #v-sub-conteiner-2 {
+        margin: 0 0 0 40px;
+    }
+
+    #v-sub-conteiner-3 {
+        margin: 45px 0 15px 0;
+    }
+    
+    #v-main-conteiner-2 {
+        margin: 0 0 0 55px;
+    }
+
+    #v-center-conteiner-2 {           /* стилизация контейнеров "Формат занятий" */        
+        margin: 0 112px 0 112px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #v-center-conteiner-1 {
+        margin: 110px 108px 0 108px;
+    }
+
+    #v-sub-center-1, #v-sub-center-2, #v-sub-center-3 {
+        margin: 50px 0 0 0;
+    }
+    
+    #v-img-aktery {
+        position: absolute;
+        top: 3130px;
+        left: 455px;
+    }
+
+    #v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
+        margin: 155px 112px 0 112px;
+    }
+     
+    #v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
+        display: flex;
+        flex-direction: column;
+        margin: 0 112px 0 125px;
+    }
+
+    #v-img-postanovka {
+        margin: 50px auto;
+        position: relative;
+        left: 110px;    
+    }
+
+    
+} 
