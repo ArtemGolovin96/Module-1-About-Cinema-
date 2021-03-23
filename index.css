@@ -1,5 +1,408 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* -----------------------------------------------------------------------------------*/
+                           /* стилизация раздела "О КУРСЕ" */
+
+#v-main-conteiner-1 {               /* разделен на два контейнера */
+    margin: 91px 112px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+#v-main-conteiner-2 {
+    margin: 75px 110px;
+    display: flex;
+    flex-direction: row;
+}
+
+#v-conteiner-1 {       
+    width: 610px;
+}
+
+#v-h1 {                                     /* стилизация заголовка "О КУРСЕ" */
+    font-family: 'Roboto Slab', serif;
+    font-size: 56px;    
+    margin: 140px 0 37px 0;
+}
+
+.v-par-1 {                                 /* описание "О КУРСЕ" часть 1*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 0 0 0 0;
+    line-height: 1.5;
+    position: relative;
+    top: 10px;
+    width: 672px;
+}
+
+.v-par-2 {                                     /* описание "О КУРСЕ" часть 2*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 40px 0 0 0;
+    line-height: 1.5; 
+    position: relative;
+    top: 5px;
+    width: 663px;  
+}
+
+#v-conteiner-2 {                           /*  "О КУРСЕ" содеоржит картинку и описание занятий*/
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 20px; 
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+}
+
+#v-sub-sub-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+#v-sub-conteiner-0 {            /* выравнивание каждого отдельного списка*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 28px;
+    left: 3px; 
+}
+
+#v-sub-conteiner-1 {   
+    display: flex;
+    flex-direction: column;
+    margin: 55px 0 0 60px;
+    position: relative;
+    top: 27px;
+    left: 1px;
+}
+
+#v-sub-conteiner-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 55px 0 0 0;
+    position: relative;
+    top: 28px;
+    left: 1px;
+}
+
+#v-sub-conteiner-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 55px 0 0 0;
+    position: relative;
+    top: 28px;
+    right: 3px;
+}
+
+.v-par-3 {                 /* стилизация шрифтов параграфов */
+    font-weight: 800;
+    font-size: 24px;
+    width: 140px;
+    margin: 30px 60px 10px 30px;
+    position: relative;
+    top: 5px;
+    left: 9px;
+}
+
+.v-par-4 {                   /* стилизация шрифтов параграфов */
+    font-size: 18px; 
+    width: 150px;
+    margin: 0 60px 0 30px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+#v-img-1 {
+    width: 366px;
+}
+
+#v-img-2 {
+    width: 230px;
+    position: relative;
+    top: 18px;
+    right: 32px;
+}
+
+#v-img-3 {
+    width: 189px;
+}
+
+#v-conteiner-3 {
+    margin: 130px 0 0 140px;
+    position: relative;
+    left: 52px;
+    top: 150px;
+}
+/* -----------------------------------------------------------------------------------*/
+
+#v-sinhron-img {                  /* самая верхняя картинка 1 раздела "Как смотреть кино" */
+    margin: 21px 0 97px 115px;
+}
+
+.v-date {                                /* шрифт первого раздела*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    margin: 3px 40px 0 10px;
+}
+
+#v-date-conteiner {                 /* контейнер с датой курса*/
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 115px;
+}
+
+#v-h1-main {                            /* заголовок первого раздела*/
+    font-family: 'Roboto Slab', serif;
+    font-size: 78px;    
+    margin: 20px 0 25px 115px;
+    width: 570px;
+    line-height: 105%;
+}
+
+#v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+
+#v-p-spitch {                       /* стилизация вступления 1 раздела*/
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    margin: 0 0 25px 115px;
+    width: 420px;
+    line-height: 150%;
+}
+
+#v-director {                      /* картинка режиссер */
+    width: 296px;
+    margin: 0 0 0 180px;
+    position: relative;
+    top: 15px;
+}
+
+#v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
+    font-family: 'Roboto Slab', serif;
+    background-color: #1E4681;
+    border-radius: 5px;
+    color: white;
+    width: 473.63px;
+    height: 200px;
+    position: relative;
+    left: 393px;    
+    top: 72.74px;
+    transform: rotate(-4deg);
+    padding: 10px 20px 30px 25px;
+    box-sizing: border-box;
+}
+
+#v-quote {                     /* стиль цитаты */
+    font-size: 25px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+#v-autor {                             /* стиль подписи в цитате*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: right;
+    margin: 0 0 15px 0;
+}
+/* -----------------------------------------------------------------------------------*/
+#v-center-conteiner-1 {               /* стилизация раздела "Формат занятий" */
+    margin: 90px 108px;
+}
+
+#v-h1-format {                  /* заголовок раздела "Формат занятий" */
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;    
+}
+
+#v-center-conteiner-2 {           /* стилизация контейнеров "Формат занятий" */        
+    margin: 115px 112px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    width: 81%;
+}
+
+.v-par-center-1 {                /* верхний параграф "Формат занятий" */ 
+    color: rgba(30, 70, 129, 1);
+    font-weight: 700;
+    font-size: 25px;
+    width: 250px;
+    margin: 0 70px 10px 0;
+}
+
+.v-par-center-2 {               /* нижний параграф "Формат занятий" */ 
+    font-size: 18px;
+    width: 270px;
+    margin: 0 70px 0 0;
+}
+
+#v-sub-center-3 {
+    margin: 0 0 0 35px;
+}
+
+#v-img-aktery {
+    position: relative;
+    left: 835px;
+    top: 45px;
+}
+
+/* -----------------------------------------------------------------------------------*/
+#v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
+    margin: -112px 112px 0 112px;
+}
+
+#v-h1-format {
+    margin: 36.850px 0 15px 0;
+}
+
+#v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
+    display: flex;
+    flex-direction: row;
+    margin: 0 112px 0 125px;
+    width: 87%;
+}
+
+#v-spisok {                                /* список из раздела "Что узнаем" */
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#v-spisok-ul {
+    padding: 0; 
+    margin-left: 5px;
+}
+
+#v-img-postanovka {               
+    margin: 185px 0 0 40px;
+}
+
+/* -----------------------------------------------------------------------------------*/
+
+@media (min-width: 834px) and (max-width: 1279px){
+
+} 
+
+@media (min-width: 375px) and (max-width: 991px){
+    
+    #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    #v-p-spitch {                       /* стилизация вступления 1 раздела*/
+        margin: 0 0 0px 115px;
+    }
+
+    #v-director {                      /* картинка режиссер */
+        margin: 0 0 0 471px;
+        position: relative;
+        bottom: 315px;
+    }
+
+    #v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
+        position: relative;
+        left: 112px;    
+        top: 102.74px;
+    }
+
+    #v-main-conteiner-1 {               /* разделен на два контейнера */
+        display: flex;
+        flex-direction: column;
+    }
+
+    #v-conteiner-3 {
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+
+    #v-conteiner-2 {                   /*  "О КУРСЕ" стилизация контейнеров */
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 20px; 
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #v-sub-sub-cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 550px;
+    }
+
+    #v-sub-conteiner-0 {            
+        position: absolute;
+        top: 138px;
+        left: 490px; 
+        margin: 0;  
+    }
+
+    #v-sub-conteiner-1, #v-sub-conteiner-2, #v-sub-conteiner-3 {
+        margin: 0;
+    }
+
+    #v-sub-conteiner-2 {
+        margin: 0 0 0 40px;
+    }
+
+    #v-sub-conteiner-3 {
+        margin: 45px 0 15px 0;
+    }
+    
+    #v-main-conteiner-2 {
+        margin: 0 0 0 55px;
+    }
+
+    #v-center-conteiner-2 {           /* стилизация контейнеров "Формат занятий" */        
+        margin: 0 112px 0 112px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #v-center-conteiner-1 {
+        margin: 110px 108px 0 108px;
+    }
+
+    #v-sub-center-1, #v-sub-center-2, #v-sub-center-3 {
+        margin: 50px 0 0 0;
+    }
+    
+    #v-img-aktery {
+        position: absolute;
+        top: 3130px;
+        left: 455px;
+    }
+
+    #v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
+        margin: 155px 112px 0 112px;
+    }
+     
+    #v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
+        display: flex;
+        flex-direction: column;
+        margin: 0 112px 0 125px;
+    }
+
+    #v-img-postanovka {
+        margin: 50px auto;
+        position: relative;
+        left: 110px;    
+    }
+
+    
+} 
 
 /* БЛОК - ПРОГРАММА КУРСА */
 
