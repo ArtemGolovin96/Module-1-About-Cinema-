@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Начало серого блока */
+.z-tiles-gray{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 88vh;
+    font-family: 'Roboto Slab', serif;
+}
+.z-block{
+    width:85%;
+    height: 100%;       
+}
+.z-block2{
+    width: 79.5%;
+    margin: auto;
+    height: 100%;
+          
+}
+.z-infa{
+    background-color: white;
+    height: 451px;
+    width: 791px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+}
+.z-infa p{
+    font-size: 20px;
+    padding: 2em;
+    padding-left: 2.3em;
+    line-height: 150%;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 35px;
+    
+    
+    
+}
+.z-block2 h2{
+    padding-top: 1.5em;
+    font-size: 55px;
+    margin-bottom: 1.1em;
+}
+.item-img{
+    display: flex;
+}
+.item-img img{
+    padding-left: 26px;
+    margin-right: 5px;
+}
+.amg {
+    display: flex;
+    flex-direction: column;
+    
+}
+a img{
+    margin-top: 25px;
+}
+.name{
+    padding-top: 45px;    
+}
+/* конец серого блока */
+/* начало зеленого блока */
+.z-tiles-green{
+    background-color: #9DC9C8;
+    height: 89vh;
+    font-family: 'Roboto Slab', serif;
+
+}
+.z-block-green{
+    width:85%;
+    height: 100%;
+}
+.z-block2-green{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.z-block2-green h2{
+    padding-top: 3.15em;
+    font-size: 55px;
+    margin-bottom: 1em;
+    margin-top: 0;
+    font-weight: 700;
+}
+.z-block2-green h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.z-block2-green p{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 47px;
+    line-height: 101%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.z-columns{
+    display: flex;
+
+}
+.z-columns1{
+    margin-right: 5vw;
+    }
+.z-columns1 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.z-columns2 p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.z-columns1 h3{
+    font-size: 25px;
+    margin-bottom: 14px;
+}
+.z-columns2 h3{
+    font-size: 25px;
+    margin-bottom: 14px;
+}
+/* конец зеленого блока */
+/* начало черного блока */
+
+footer{
+    background-color: black;
+    height: 41vh;
+}
+.z-footmain{
+    margin: auto;
+    color: white;
+    width: 83%;
+    display: flex; 
+    justify-content: space-between;   
+
+}
+.logo{
+    margin-top: 23%;
+    width: 116px;
+    margin-bottom: 29px;
+}
+.z-foot-img{
+    width: 100%;
+}
+.z-foot-img img{
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;    
+    
+}
+.z-foot-rigts div{
+    display: flex;
+}
+
+.z-foot-rigts{
+    margin-top: 24px;
+}
+.z-footwrapper p{
+    margin-top: 60%;
+}
+.badge{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.telephon {
+    font-size: 25px;
+    margin: 30px 50px 10px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.email{
+    font-size: 25px;
+    margin: 0 50px 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.telephonimg{
+    margin-top: 27px;
+    margin-right: 10px;
+    width: 27px;    
+    height: 27px;
+}
+.emailimg{
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
