@@ -420,7 +420,9 @@ footer{
     .z-infa{
         background-color: white;
         height: 248px;
-        width: 308px;
+        width: 100%;
+        min-width: 308px;
+        max-width: 420px;
         border-radius: 17px;
         padding-bottom: 0px;
         margin-left: 4px;
