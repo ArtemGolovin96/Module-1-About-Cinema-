@@ -965,6 +965,70 @@ footer{
         margin-right: 0px;
     }
 }
+
+/* Адаптивная верстка. Вадим. */
+
+
+@media (min-width: 834px) and (max-width: 1279px){
+
+    #v-director {                      /* картинка режиссер */
+        margin: 0 0 0 162px;
+        width: 22vw;
+    }
+
+    #v-img-1 {
+        width: 25vw;
+        margin: 0 0 0 0px;
+    }
+
+    #v-img-2 {
+        width: 16vw;    
+    }
+
+    #v-sub-conteiner-1 {
+        margin: 55px 0 0 40px;
+    }
+
+    #v-conteiner-3 {
+        margin: 130px 0 0 65px;
+    }
+
+    #v-img-aktery {
+        position: relative;
+        left: 835px;
+        top: 35px;
+        width: 19vw;
+    }
+
+    #v-img-postanovka {
+        margin: 50px auto;
+        position: relative;
+        left: 40px;    
+        top: 125px;
+        width: 26vw;
+    }
+
+    #v-h1-format {
+        font-size: 52px;
+    }
+
+    #v-spisok {                                /* список из раздела "Что узнаем" */
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .v-par-1, .v-par-2 {
+        font-size: 22px;
+    }
+
+} 
+
+   body{
+        min-width: 375px;
+    }
+
 @media (max-width:  833px ) and (min-width: 375px){
     .z-tiles-gray{
         background-color: #EFEFEF;
