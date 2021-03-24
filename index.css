@@ -145,7 +145,7 @@
 }
 /* -----------------------------------------------------------------------------------*/
 
-#v-sinhron-img {                  /* самая верхняя картинка 1 раздела "Как смотреть кино" */
+#v-sinhron-img {                  /* самая ВЕРХНЯЯ картинка 1 раздела "Как смотреть кино" */
     margin: 21px 0 91px 115px;
 }
 
@@ -229,6 +229,11 @@
     margin: 99px 108px 119px 117px;
 }
 
+#v-h1-format-1 {                  /* заголовок раздела "Формат занятий" */
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;    
+}
+
 #v-h1-format {                  /* заголовок раздела "Формат занятий" */
     font-family: 'Roboto Slab', serif;
     font-size: 55px;    
@@ -302,7 +307,6 @@
 /* -----------------------------------------------------------------------------------*/
 
 /* БЛОК - ПРОГРАММА КУРСА */
-
 
 /* Верхний контейнер с заголовком */
 
@@ -444,7 +448,6 @@
     display: flex;
     flex-direction: row;
     white-space: nowrap;
-
 }
 
 #ds.a-author {
@@ -1002,6 +1005,10 @@ footer{
         width: 26vw;
     }
 
+    #v-h1-format-1 {
+        font-size: 52px;
+    }
+
     #v-h1-format {
         font-size: 52px;
     }
@@ -1021,6 +1028,36 @@ footer{
 
 @media (min-width: 375px) and (max-width: 833px){
     
+    #v-sinhron-img {                  /* самая верхняя картинка 1 раздела "Как смотреть кино" */
+        margin: 36px 0 61px 34px;
+    }
+
+    #v-date-conteiner {                 /* контейнер с датой курса*/
+        margin: 15px 0px 0 34px;
+        width: 700px;
+    }
+
+    #v-h1-main {
+        margin: 21px 0 0 34px;
+        font-size: 76px;
+        font-stretch:semi-expanded; 
+        letter-spacing: 1.4px; 
+        line-height: 100%;
+    }
+
+    #v-oclock-img {
+        margin-right: 7px;
+    }
+
+    #v-kalendar-img {
+        margin-right: 15px;
+    }
+
+    .v-date {                                /* шрифт первого раздела*/
+        font-size: 19px;
+        margin: 0 10px 0 0;
+    }
+
     #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
         display: flex;
         flex-direction: column;
@@ -1028,25 +1065,48 @@ footer{
     }
 
     #v-p-spitch {                       /* стилизация вступления 1 раздела*/
-        margin: 0 0 0px 115px;
+        margin: 33px 0 0px 34px;
     }
 
     #v-director {                      /* картинка режиссер */
-        margin: 0 0 0 471px;
+        margin: -15px 0 0 369px;
         position: relative;
         bottom: 315px;
-        width: 38vw;
+        width: 72vw;
     }
 
     #v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
         position: relative;
-        left: 112px;    
+        left: 42px;    
         top: 102.74px;
+        margin: 0 0 0 0px;
+        width: 451px;
+        height: 189px;
+        line-height: normal;
+    }
+
+    #v-quote {
+        width: 470px;
+        font-size: 22px;
     }
 
     #v-main-conteiner-1 {               /* разделен на два контейнера */
         display: flex;
         flex-direction: column;
+        margin: 35px 0 0 34px;
+    }
+
+    #v-h1 {
+        margin: 205px 0 37px 8px;
+        font-size: 50px;
+    }
+
+    .v-par-1 {
+        width: 650px;
+    }
+
+    .v-par-2 {
+        width: 630px;
     }
 
     #v-conteiner-3 {
@@ -1057,8 +1117,8 @@ footer{
     }
 
     #v-img-1 {
-        width: 39.2vw;
-        margin: 0 auto;
+        width: 85vw;
+        margin: -10px 0 0 155px;
     }
 
     #v-conteiner-2 {                   /*  "О КУРСЕ" стилизация контейнеров */
@@ -1075,25 +1135,22 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         width: 550px;
+        margin: 71px 0 0 -147px;
     }
 
     #v-sub-conteiner-0 {            
         position: absolute;
-        top: 138px;
-        left: 490px; 
-        margin: 0;
+        top: 207px;
+        left: 400px; 
+        margin: 0 0 0 0;
     }
 
     #v-img-2 {
-        width: 29vw;
+        width: 56vw;
     }
 
     #v-sub-conteiner-1, #v-sub-conteiner-2, #v-sub-conteiner-3 {
         margin: 0;
-    }
-
-    #v-sub-conteiner-2 {
-        margin: 0 0 0 40px;
     }
 
     #v-sub-conteiner-3 {
@@ -1105,41 +1162,85 @@ footer{
     }
 
     #v-center-conteiner-2 {           /* стилизация контейнеров "Формат занятий" */        
-        margin: 0 112px 0 112px;
+        margin: -43px 112px 0 34px;
         display: flex;
         flex-direction: column;
+        width: 400px;
     }
 
     #v-center-conteiner-1 {
-        margin: 110px 108px 0 108px;
+        margin: 133px 108px 0 34px;
+        width: 600px;
+        font-stretch:extra-expanded; 
     }
 
-    #v-sub-center-1, #v-sub-center-2, #v-sub-center-3 {
-        margin: 50px 0px 0px 0px;
+    #v-sub-center-1 {
+        margin: 53px 0px 0px 0px;
+        width: 450px;
+    }
+
+    #v-sub-center-2 {
+        margin: 60px 0px 0px 0px;
+        width: 370px;
+    }
+
+    #v-sub-center-3 {
+        margin: 57px 0px 0px 0px;
+        width: 430px;
+    }
+
+    .v-par-center-1{
+        margin: 5px 0 0 0;
+    }
+
+    .v-par-center-2 {
+        margin: 5px 0 0 0;
+        width: 340px;
+        font-size: 20px;
     }
     
     #v-img-aktery {
         position: absolute;
-        top: 3130px;
-        left: 455px;
-        width: 34vw;
+        top: 3080px;
+        left: 375px;
+        width: 65vw;
+    }
+
+    #v-h1-format {
+        width: 570px;
+        margin: -5px 0 0 5px;
+    }
+
+    #v-h1-format-1 {
+        width: 570px;
+    }
+
+    #v-spisok {
+        width: 600px;
+        margin: 12px 0 0 25px;
+    }
+    
+    li {
+        width: 600px;
     }
 
     #v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
-        margin: 155px 112px 0 112px;
+        margin: 155px 112px 0 34px;
+        width: 300px;
     }
      
     #v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
         display: flex;
         flex-direction: column;
-        margin: 0 112px 0 125px;
+        margin: 0 112px 0 25px;
     }
 
     #v-img-postanovka {
         margin: 50px auto;
         position: relative;
-        left: 110px;    
-        width: 39vw;
+        left: 140px;
+        bottom: 5px;    
+        width: 92vw;
     }
 
     .a-super-container {
