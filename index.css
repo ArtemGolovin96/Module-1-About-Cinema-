@@ -25,6 +25,7 @@
     width: 791px;
     border-radius: 30px;
     padding-bottom: 0px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 .z-infa p{
     font-size: 20px;
@@ -602,7 +603,9 @@ footer{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         margin-bottom: 0;    
-        margin-top: 45px;    
+        margin-top: 045px;
+        color: white;  
+        display: block;  
     }
     .telephon {
         font-size: 12px;
