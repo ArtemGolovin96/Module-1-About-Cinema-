@@ -7,9 +7,7 @@
  
 /* -----------------------------------------------------------------------------------*/
                            /* стилизация раздела "О КУРСЕ" */
-body {
-    width: 100%;
-}
+
 
 
 #v-main-conteiner-1 {               /* разделен на два контейнера */
@@ -1039,7 +1037,7 @@ div#dsh.hov {
     #v-img-aktery {
         position: absolute;
         top: 3080px;
-        left: 375px;
+        left: 376px;
         width: 65vw;
     }
  
@@ -1487,7 +1485,7 @@ footer{
     }
     .z-foot-img img{
         width: 20px;
-        height: 20px;
+        height: 20px;        
         margin-right: 6px;    
         
     }
