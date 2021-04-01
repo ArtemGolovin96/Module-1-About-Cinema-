@@ -123,7 +123,7 @@
 }
 
 #v-img-1 {
-    width: 21.8vw;
+    width: 25.5vw;
 }
 
 #v-img-2 {
@@ -284,7 +284,7 @@
 #v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
     display: flex;
     flex-direction: row;
-    margin: 0 112px 0 125px;
+    margin: 20px 116px 0 117px;
     width: 87%;
 }
 
@@ -293,6 +293,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
+    width: 660px;
 }
 
 #v-spisok-ul {
@@ -368,10 +369,31 @@
     margin: 21px 20px 20px 18px;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
 
+.a-item1 {
+    height: 328px;
+    width: 399px;
+    margin: 21px 20px 20px 18px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+.a-item2 {
+    height: 328px;
+    width: 399px;
+    margin: 21px 20px 20px 18px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 }
 
 .a-item-name {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;        
+    margin: 8px 0px 0px 21px;
+}
+
+.a-item-name1 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;        
     margin: 8px 0px 0px 21px;
@@ -425,7 +447,7 @@
 
 .a-course-authors {
     display: flex;
-    height: 841px
+    height: 667px;
 }
 
 .a-course-name {
@@ -465,38 +487,49 @@
     left: -281px;
 }
 
-
-
 .a-ava-author{
     width: 185px;
     height: 185px;
-    
+    margin: -105px 0 0 -80px;   
+}
+
+.a-ava-author1{
+    width: 185px;
+    height: 185px;
+    margin: -100px 0 0px 315px;   
 }
 
 .a-author-name {
-    font-size: 34px;
+    font-size: 32px;
     font-family: 'Roboto Slab', serif;
     white-space: nowrap;
-    margin: 58px 0px 0px 20px;
+    margin: -50px 0px 0px 18px;
     line-height: 101.38%;
+    letter-spacing: -1.1px;
+}
+
+.a-author-name1 {
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    white-space: nowrap;
+    margin: -53px 0px 0px 23px;
+    line-height: 101.38%;
+    letter-spacing: -1.6px;
 }
 
 #dka.a-about-the-author {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     white-space: nowrap;
-    position: relative;
-    top: 91px;
-    left: -306px;
+    margin: -5px 0 0 -273px;
 }
 
 #dsa.a-about-the-author {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     white-space: nowrap;
-    position: relative;
-    top: 91px;
-    left: -306px;
+    margin: -10px 0 0 -270px;
+    letter-spacing: -1px;
 }
 
 .a-about-the-author-full {
@@ -515,9 +548,10 @@ img#dki.znak{
 
 div#dkh.hov {
     position: absolute;
-    left: 547px;
-    width:58px;
+    left: 407px;
+    width: 58px;
     height: 58px;
+    top: -106px;
 }
 
 img#dsi.znak{
@@ -533,9 +567,10 @@ img#dsi.znak{
 
 div#dsh.hov {
     position: absolute;
-    left: 550px;
-    width:58px;
+    left: 810px;
+    width: 58px;
     height: 58px;
+    top: -110px;
 }
 
 .a-about-the-author-full {
@@ -791,8 +826,6 @@ footer{
         margin-bottom: 0;
         padding-bottom: 1.3em;
         
-        
-        
     }
     .z-block2 h2{
         padding-top: 1.5em;
@@ -965,25 +998,96 @@ footer{
 
 /* Адаптивная верстка. Вадим. */
 
-
 @media (min-width: 834px) and (max-width: 1279px){
+    
+    #v-sinhron-img {
+        margin: 22px 0 91px 70px;
+        width: 8vw;
+    }
 
-    #v-director {                      /* картинка режиссер */
-        margin: 0 0 0 162px;
-        width: 22vw;
+    #v-globus-img {
+        width: 1.5vw;
+    }
+
+    #v-director {
+        margin: -7px 0 0 22px;
+        width: 21vw;
+    }
+
+    #v-date-conteiner {
+        margin: -50px 0px 0 70px;
+    }
+
+    #v-h1-main {
+        letter-spacing: 1.3px;
+        margin: 11px 22px 43px 70px;
+        width: 400px;
+        font-size: 44px;
+    }
+
+    #v-h1 {
+        margin: 72px 0px 39px -43px;
+        font-size: 32px;
+        letter-spacing: 0px;
+    }
+
+    #v-p-spitch {
+        width: 260px;
+        letter-spacing: 0.6px;
+        font-size: 11px;
+        margin: -23px 0 0 70px;
+        line-height: 18px;
+    }
+
+    #v-start-conteiner-quote {
+        width: 275.63px;
+        height: 120px;
+        margin: -25px 0px 0px -170px;
+        padding: 10px;
+    }
+
+    #v-quote {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.3px;
+    }
+
+    #v-autor {
+        font-size: 12px;
+        margin: -8px 0 0px 0;
+    }
+
+    .v-date {
+        margin: 11px -10px 0px 6px;
+        font-size: 12px;
+    }
+
+    #online {
+        margin: 11px 16px 0px 0px;
+    }
+
+    #v-oclock-img {
+        margin: 0px 0px 0px -11px;
+        width: 1.5vw;
+    }
+
+    #v-kalendar-img {
+        margin: 5px 0px 0px -16px;
+        width: 1.5vw;
     }
 
     #v-img-1 {
-        width: 25vw;
-        margin: 0 0 0 0px;
+        width: 24vw;
+        margin: -128px 250px 0px -40px;
     }
 
     #v-img-2 {
-        width: 16vw;    
+        width: 17vw;
+        margin: -40px -10px 0 -55px;
     }
 
     #v-sub-conteiner-1 {
-        margin: 55px 0 0 40px;
+        margin: 55px 0 0 9px;
     }
 
     #v-conteiner-3 {
@@ -991,10 +1095,8 @@ footer{
     }
 
     #v-img-aktery {
-        position: relative;
-        left: 835px;
-        top: 35px;
         width: 19vw;
+        margin: -68px 0px 0 -352px;
     }
 
     #v-img-postanovka {
@@ -1006,11 +1108,14 @@ footer{
     }
 
     #v-h1-format-1 {
-        font-size: 52px;
+        font-size: 31px;
+        letter-spacing: 0.6px;
     }
 
     #v-h1-format {
-        font-size: 52px;
+        font-size: 34px;
+        margin: 37px 0 0 2px;
+        letter-spacing: -1.2px;
     }
 
     #v-spisok {                                /* список из раздела "Что узнаем" */
@@ -1020,9 +1125,320 @@ footer{
         line-height: 1.5;
     }
 
-    .v-par-1, .v-par-2 {
-        font-size: 22px;
+    .v-par-1 {
+        font-size: 14px;
+        margin: -22px 0px 50px -43px;
+        width: 372px;
     }
+    
+    .v-par-2 {                                     /* описание "О КУРСЕ" часть 2*/
+        font-size: 14px;
+        margin: -22px 0px 2px -43px;
+        width: 382px; 
+    }
+
+    .v-par-3 {
+        font-size: 16px;
+        margin: -44px 0px 0px -26px;
+    }
+
+    #chasa{
+        margin: -44px 0px 0px -79px;
+    }
+
+    #kazhd {
+        margin: 0px 40px 0px -79px;
+        width: 125px;
+    }
+
+    #kurdlit {
+        width: 115px;
+    }
+
+    .v-par-4 {
+        font-size: 12px;
+        width: 155px;
+        margin: 0 60px 0 -25px;
+    }
+
+    #v-center-conteiner-1 {
+        margin: -40px 108px 129px 70px;
+    }
+
+    #v-center-conteiner-2 {
+        margin: -67px 112px 115px 70px;
+    }
+
+    #v-center-conteiner-3 {
+        margin: -67px 112px 0 68px;
+    }
+
+    .v-par-center-1 {
+        margin: 6px 0px 10px 0px;
+        letter-spacing: 0.1px;
+        font-size: 15px;
+        width: 184px;
+    }
+
+    .v-par-center-2 {
+        margin: 0 -150px 0 0px;
+        font-size: 19px;
+        width: 135px;
+        font-size: 11px;
+    }
+
+    #dostup {
+        letter-spacing: 0.1px;
+        margin: 6px 0px 0px 16px;
+    }
+
+    #dostup2 {
+        margin: -5px 30px 0px 15px;
+        width: 160px;
+    }
+
+    #obshenie {
+        margin: 6px 70px -6px 0px;
+    }
+
+    #obshenie2 {
+        margin: 0px 70px 0px 0px;
+        width: 160px;
+    }
+
+    #v-center-conteiner-5 {
+        margin: 2px 112px 0 70px;
+        width: 600px;
+    }
+
+    #v-spisok {
+        font-size: 15px;
+        letter-spacing: -0.5px;
+        line-height: 1.4;
+    }
+
+    #v-spisok-ul {
+        width: 380px;
+    }
+
+    #v-img-postanovka {
+        margin: -7px 0 0 -8px;
+        width: 27vw;
+    }
+
+    .a-programma-kursa {
+        margin: 0px 40px 0px 0px;
+    }
+
+    .a-head-container {
+        padding-left: 50px;
+        margin: 15px 0px 104px 0px;
+        width: 834px;
+    }
+
+    .a-design-line {
+        width: 980px;
+        height: 10px;
+        background-color: black;
+        margin: 43px 0px 0px -20px;
+    }
+
+    .a-course-name {
+        font-size: 34px;
+        margin: 24px 130px 0px 20px;
+        letter-spacing: -1.5px;
+    }    
+
+    .a-big-container-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: -2px;
+    }
+
+    .a-super-container {
+        padding-left: 15px;
+        width: 844px;
+    }
+
+    .a-item {
+        height: 189px;
+        width: 231px;
+        margin: -30px 50px 0px 0px;
+    }
+
+    .a-item-name {
+        font-size: 17px;
+        margin: 2px 0px 0px 16px;
+    }
+
+    #oneC {
+        margin: -30px 20px 0px 30px;
+    }
+
+    .a-date-item {
+        font-size: 14px;
+        margin: 22px 5px 0px 20px;
+    }
+
+    #rezh {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #rezhitem {
+        margin: -30px 50px 0px -30px;
+    }
+
+    #rezh1 {
+        margin: 2px 0px 0px 20px;
+    }
+
+    #rezh2 {
+        margin: 22px 0px 0px 20px;
+    }
+
+    #rezh3 {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .a-autor-item {
+        font-size: 14px;
+        margin: 3px 0px 0px 20px;
+    }
+    
+    .a-item-avatar{
+        width: 231px;
+    }
+
+    .a-item-name1 {
+        font-size: 17px;
+        margin: 1px 0px 0px 16px;
+    }
+
+    .a-item1 {
+        height: 189px;
+        width: 231px;
+        margin: 25px 20px 30px 30px;
+    }
+
+    .a-item2 {
+        height: 189px;
+        width: 231px;
+        margin: -5px 15px 30px 32px;
+    }
+
+    #zhanr {
+        margin: 25px 20px 30px 0px;
+    }
+
+    #seminar {
+        margin: 25px 20px 30px 0px;
+    }
+
+    #a-item2 {
+        margin: -5px 5px 30px 7px;
+    }
+
+    #vzglyad {
+        margin: 1px 0px 0px 14px;
+    }
+
+    #big-size-name {
+        margin: 3px 0px 0px 13px;
+        font-size: 17px;
+    }
+
+    #big-size-date {
+        font-size: 14px;
+        margin: 5px 5px 0px 12px;
+    }
+
+    #big-size-autor {
+        font-size: 14px;
+        margin: 3px 0px 0px 12px;
+    }
+
+    .a-img-container {
+        margin: 25px 0 0px -434px;
+        width: 18vw;
+    }
+
+    #ak.a-course-name {
+        margin: 10px 0px 0px 70px;
+        font-size: 32px;
+        letter-spacing: 0.1px;
+    }
+
+    .a-ava-author {
+        margin: -239px 0 0 72px;
+        width: 110px;
+        height: 110px;
+    } 
+
+    .a-ava-author1 {
+        margin: -273px 0px 0 252px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .a-author-name {
+        font-size: 17px;
+        margin: -209px 0px 0px 8px;
+        line-height: 101.38%;
+        letter-spacing: 0.2px;
+    }
+
+    .a-author-name1 {
+        font-size: 17px;
+        margin: -242px 0px 0px 3px;
+        line-height: 101.38%;
+        letter-spacing: 0.1px;
+    }
+
+    #dka.a-about-the-author {
+        font-size: 10px;
+        margin: -182px 0 0 -157px;
+    }
+  
+    #dsa.a-about-the-author {
+        font-size: 10px;
+        margin: -217px 0 0 -156px;
+        letter-spacing: 0.1px;
+    }
+
+    img#dki.znak {
+        width: 29.5px;
+        height: 29.5px;
+        margin: 0px 0px 0px 150px;
+    }
+
+    img#dsi.znak {
+        width: 29.5px;
+        height: 29.5px;
+        margin: 0px 0px 0px -670px;
+    }
+
+    .a-course-authors {
+        display: flex;
+        height: 347px;
+    }
+
+    div#dkh.hov {
+        position: absolute;
+        left: 547px;
+        width: 58px;
+        height: 58px;
+        top: -219px;
+    }
+
+    div#dsh.hov {
+        position: absolute;
+        left: 860px;
+        width: 58px;
+        height: 58px;
+        top: -346px;
+    }
+
 
 } 
 
@@ -1283,6 +1699,4 @@ footer{
         padding: 0 0 0 80px;
     }
 
-
-    
 } 
