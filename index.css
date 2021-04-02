@@ -1,39 +1,37 @@
  /* Импорты */
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
- 
- 
- 
- 
+
+
+
+
 /* -----------------------------------------------------------------------------------*/
                            /* стилизация раздела "О КУРСЕ" */
-
-
-
+ 
 #v-main-conteiner-1 {               /* разделен на два контейнера */
     margin: 91px 112px;
     display: flex;
     flex-direction: row;
     width: 90%;
 }
- 
+
 #v-main-conteiner-2 {
     margin: 75px 110px;
     display: flex;
     flex-direction: row;
 }
- 
+
 #v-conteiner-1 {       
     width: 610px;
 }
- 
+
 #v-h1 {                                     /* стилизация заголовка "О КУРСЕ" */
     font-family: 'Roboto Slab', serif;
     font-size: 56px;    
     margin: 143px 0px 39px 0px;
     letter-spacing: 0.45px;
 }
- 
+
 .v-par-1 {                                 /* описание "О КУРСЕ" часть 1*/
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -43,7 +41,7 @@
     top: 10px;
     width: 672px;
 }
- 
+
 .v-par-2 {                                     /* описание "О КУРСЕ" часть 2*/
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -53,7 +51,7 @@
     top: 5px;
     width: 663px;  
 }
- 
+
 #v-conteiner-2 {                           /*  "О КУРСЕ" содеоржит картинку и описание занятий*/
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -63,14 +61,14 @@
     bottom: 80px;
     left: 10px;
 }
- 
+
 #v-sub-sub-cont {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin: 0 0 0 30px;
 }
- 
+
 #v-sub-conteiner-0 {            /* выравнивание каждого отдельного списка*/
     display: flex;
     flex-direction: column;
@@ -78,7 +76,7 @@
     top: 27px;
     left: 9px; 
 }
- 
+
 #v-sub-conteiner-1 {   
     display: flex;
     flex-direction: column;
@@ -87,7 +85,7 @@
     top: 43px;
     left: 62px;
 }
- 
+
 #v-sub-conteiner-2 {
     display: flex;
     flex-direction: column;
@@ -96,7 +94,7 @@
     top: 43px;
     left: 66px;
 }
- 
+
 #v-sub-conteiner-3 {
     display: flex;
     flex-direction: column;
@@ -106,7 +104,7 @@
     left: 69px;
 }
  
-.v-par-3 {
+.v-par-3 {                 /* стилизация шрифтов параграфов */
     font-weight: 800;
     font-size: 25px;
     width: 140px;
@@ -137,16 +135,16 @@
 #v-img-1 {
     width: 25.5vw;
 }
- 
+
 #v-img-2 {
     /* width: 16vw;
     margin: 15px 10px 0px -30px; */
 }
- 
+
 #v-img-3 {
     width: 189px;
 }
- 
+
 #v-conteiner-3 {
     margin: 130px 0 0 140px;
     position: relative;
@@ -154,24 +152,24 @@
     top: 159px;
 }
 /* -----------------------------------------------------------------------------------*/
- 
+
 #v-sinhron-img {                  /* самая ВЕРХНЯЯ картинка 1 раздела "Как смотреть кино" */
     margin: 21px 0 91px 115px;
 }
- 
+
 .v-date {                                /* шрифт первого раздела*/
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     margin: 0px 44px 2px 6px;
     padding: 2.5px
 }
- 
+
 #v-date-conteiner {                 /* контейнер с датой курса*/
     display: flex;
     flex-direction: row;
     margin: 0 0px 0 115px;
 }
- 
+
 #v-h1-main {                            /* заголовок первого раздела*/
     font-family: 'Roboto Slab', serif;
     font-size: 78px;  
@@ -181,13 +179,13 @@
     width: 570px;
     line-height: 105%;
 }
- 
+
 #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
     display: flex;
     flex-direction: row;
     width: 85%;
 }
- 
+
 #v-p-spitch {                       /* стилизация вступления 1 раздела*/
     font-family: 'Roboto', sans-serif; 
     font-size: 20px;
@@ -195,14 +193,14 @@
     width: 420px;
     line-height: 150%;
 }
- 
+
 #v-director {                      /* картинка режиссер */
     width: 296px;
     margin: 0 0 0 183px;
     position: relative;
     top: 12px;
 }
- 
+
 #v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
     font-family: 'Roboto Slab', serif;
     background-color: #1E4681;
@@ -220,13 +218,13 @@
     box-sizing: border-box;
     margin-bottom: 90px;
 }
- 
+
 #v-quote {                     /* стиль цитаты */
     font-size: 25px;
     font-weight: 300;
     margin: 5px 0;
 }
- 
+
 #v-autor {                             /* стиль подписи в цитате*/
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -238,12 +236,12 @@
 #v-center-conteiner-1 {               /* стилизация раздела "Формат занятий" */
     margin: 83px 108px 119px 117px;
 }
- 
+
 #v-h1-format-1 {                  /* заголовок раздела "Формат занятий" */
     font-family: 'Roboto Slab', serif;
     font-size: 55px;  
 }
- 
+
 #v-h1-format {                  /* заголовок раздела "Формат занятий" */
     font-family: 'Roboto Slab', serif;
     font-size: 55px;  
@@ -269,13 +267,13 @@
     width: 250px;
     margin: 0 75px 10px 0;
 }
- 
+
 .v-par-center-2 {               /* нижний параграф "Формат занятий" */ 
     font-size: 18px;
     width: 270px;
     margin: 0 70px 0 0;
 }
- 
+
 #v-sub-center-3 {
     margin: 0 0 0 44px;
 }
@@ -299,39 +297,39 @@
 #v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
     display: flex;
     flex-direction: row;
-    margin: 0 112px 0 125px;
+    margin: 20px 116px 0 117px;
     width: 87%;
 }
- 
+
 #v-spisok {                                /* список из раздела "Что узнаем" */
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
+    width: 660px;
 }
- 
+
 #v-spisok-ul {
     padding: 10px 0px 0px 4.5px; 
     margin-left: 5px;
-    width: 662px;
 }
- 
+
 #v-img-postanovka {               
     margin: 195px 0 0 47px;
 }
- 
+
 /* -----------------------------------------------------------------------------------*/
- 
+
 /* БЛОК - ПРОГРАММА КУРСА */
- 
+
 /* Верхний контейнер с заголовком */
- 
+
 /* Отцентровочный блок, после использования удалить! */
 .a-programma-kursa {
     margin: 125px 40px 0px 00px;  /* <----- При склейке использовать это */
     font-family: 'Roboto Slab', serif;
 }
- 
+
 .a-head-container {
     display: flex;
     padding-left: 100px;
@@ -339,7 +337,7 @@
     padding-top: 69px;
     white-space: nowrap;
 }
- 
+
 .a-course-name {
     font-family: 'Roboto Slab', serif;
     font-style: normal;
@@ -347,24 +345,24 @@
     font-size: 55px;
     margin: 0px 180px 0px 15px;
 }
- 
+
 .a-design-line {
     width: 630px;
     height: 14px;
     background-color: black ;
     margin: 33px 0px 0px 0px;
 }
- 
- 
+
+
 /* Основной блок с item's */
- 
+
 .a-super-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding-left: 60px;
 }
- 
+
 .a-big-container-1 {
     display: flex;
     flex-wrap: wrap;
@@ -377,54 +375,75 @@
     flex-direction: row;
     margin: 3px 0px 0px 0px;
 }
- 
+
 .a-item {
     height: 328px;
     width: 399px;
     margin: 21px 20px 20px 18px;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
- 
 }
- 
+
+.a-item1 {
+    height: 328px;
+    width: 399px;
+    margin: 21px 20px 20px 18px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+.a-item2 {
+    height: 328px;
+    width: 399px;
+    margin: 21px 20px 20px 18px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
 .a-item-name {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;        
     margin: 8px 0px 0px 21px;
 }
- 
+
+.a-item-name1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;        
+    margin: 8px 0px 0px 21px;
+}
+
 .a-date-item {
     font-size: 25px;
     margin: 35px 5px 0px 20px;
     font-family: 'Roboto', sans-serif;
 }
- 
+
 .a-autor-item {
     font-size: 25px;
     margin: 3px 0px 0px 20px;
     font-family: 'Roboto', sans-serif;
 }
- 
+
 #big-size-name {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;        
     margin: 10px 0px 0px 20px;
     line-height: 1em
 }
- 
+
 #big-size-date {
     font-size: 25px;
     margin:10px 5px 0px 18px;
     font-family: 'Roboto', sans-serif;
 }
- 
+
 #big-size-autor {
     font-size: 25px;
     margin: 3px 0px 0px 19px;
     font-family: 'Roboto', sans-serif;
 }
- 
- 
+
+
 /* Дополнитльная картинка */
  
 .a-img-container {
@@ -432,21 +451,21 @@
     left: 1050px;
     bottom: 105.5px;
 }
- 
+
 /* БЛОК - АВТОРЫ КУРСА */
- 
+
 .a-course-authors {
     display: flex;
     height: 661px;
 }
- 
+
 .a-course-name {
     font-family: Roboto Slab, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
 }
- 
+
 #ak.a-course-name {
     margin: 86px 0px 0px 117px;
     font-weight: bold;
@@ -455,13 +474,13 @@
     font-stretch: extra-expanded;
     white-space: nowrap;
 }
- 
+
 #dk.a-author {
     display: flex;
     flex-direction: row;
     white-space: nowrap;
 }
- 
+
 #ds.a-author {
     display: flex;
     flex-direction: row;
@@ -470,7 +489,7 @@
     top: 400px;
     left: -420px;
 }
- 
+
 #dk {
     position: relative;
     top: 325px;
@@ -495,28 +514,38 @@
     white-space: nowrap;
     margin: -50px 0px 0px 20px;
     line-height: 101.38%;
+    letter-spacing: -1.1px;
 }
- 
+
+.a-author-name1 {
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    white-space: nowrap;
+    margin: -53px 0px 0px 23px;
+    line-height: 101.38%;
+    letter-spacing: -1.6px;
+}
+
 #dka.a-about-the-author {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     white-space: nowrap;
     margin: 15px 0px 0 20px;
 }
- 
+
 #dsa.a-about-the-author {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     white-space: nowrap;
     margin: 12px 0 0 18px;
 }
- 
+
 .a-about-the-author-full {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
- 
- 
+
+
 /* Восклицательный знак и ховер */
  
 img#dsi.znak {
@@ -524,32 +553,34 @@ img#dsi.znak {
     height: 49px;
     margin: -100px 0 0px 190px;
 }
- 
+
 div#dkh.hov {
     position: absolute;
-    left: 547px;
-    width:58px;
+    left: 407px;
+    width: 58px;
     height: 58px;
+    top: -106px;
 }
- 
+
 img#dsi.znak{
     width: 28px;
     height: 28px;
     padding-top: 60px;
 }
- 
+
 img#dsi.znak{
     width:38px;
     height: 38px;
 }
- 
+
 div#dsh.hov {
     position: absolute;
-    left: 550px;
-    width:58px;
+    left: 810px;
+    width: 58px;
     height: 58px;
+    top: -110px;
 }
- 
+
 .a-about-the-author-full {
     display: none;
     width: 399px;
@@ -557,8 +588,8 @@ div#dsh.hov {
     padding: 30px;
     word-break: break-all;
 }
- 
- 
+
+
 #dkh.hov:hover .a-about-the-author-full {
     display: block;
     opacity: 1;
@@ -570,7 +601,7 @@ div#dsh.hov {
     right: 370px;
     margin-bottom: 50px;
 }
- 
+
 #dsh.hov:hover .a-about-the-author-full {
     display: block;
     opacity: 1;
@@ -1784,38 +1815,132 @@ footer{
         margin-right: 3px;
     }
 }
-@media (max-width:  833px ) and (min-width: 375px){
-    .z-tiles-gray{
-        background-color: #EFEFEF;
-        width: 100%;
-        height: 423px;
-        font-family: 'Roboto Slab', serif;
+ 
+ 
+/* Адаптивная верстка. Вадим. */
+ 
+ 
+@media (min-width: 834px) and (max-width: 1279px){
+ 
+    #v-director {                      /* картинка режиссер */
+        margin: 0 0 0 162px;
+        width: 22vw;
     }
-    .z-block{
-        width:85%;
-        height: 100%;       
+
+    #v-globus-img {
+        width: 1.5vw;
     }
-    .z-block2{
-        width: 79.5%;
-        margin: auto;
-        height: 100%;
+
+    #v-director {
+        margin: -7px 0 0 22px;
+        width: 21vw;
     }
-    
-    .z-infa{
-        background-color: white;
-        height: 248px;
-        width: 100%;
-        min-width: 308px;
-        max-width: 420px;
-        border-radius: 17px;
-        padding-bottom: 0px;
-        margin-left: 4px;
+
+    #v-date-conteiner {
+        margin: -50px 0px 0 70px;
     }
-    .z-infa p{
-        font-size: 10px;
-        padding: 19px;
-        padding-left: 2.3em;
-        line-height: 150%;
+
+    #v-h1-main {
+        letter-spacing: 1.3px;
+        margin: 11px 22px 43px 70px;
+        width: 400px;
+        font-size: 44px;
+    }
+
+    #v-h1 {
+        margin: 72px 0px 39px -43px;
+        font-size: 32px;
+        letter-spacing: 0px;
+    }
+
+    #v-p-spitch {
+        width: 260px;
+        letter-spacing: 0.6px;
+        font-size: 11px;
+        margin: -23px 0 0 70px;
+        line-height: 18px;
+    }
+
+    #v-start-conteiner-quote {
+        width: 275.63px;
+        height: 120px;
+        margin: -25px 0px 0px -170px;
+        padding: 10px;
+    }
+
+    #v-quote {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.3px;
+    }
+
+    #v-autor {
+        font-size: 12px;
+        margin: -8px 0 0px 0;
+    }
+
+    .v-date {
+        margin: 11px -10px 0px 6px;
+        font-size: 12px;
+    }
+
+    #online {
+        margin: 11px 16px 0px 0px;
+    }
+
+    #v-oclock-img {
+        margin: 0px 0px 0px -11px;
+        width: 1.5vw;
+    }
+
+    #v-kalendar-img {
+        margin: 5px 0px 0px -16px;
+        width: 1.5vw;
+    }
+
+    #v-img-1 {
+        width: 24vw;
+        margin: -128px 250px 0px -40px;
+    }
+
+    #v-img-2 {
+        width: 17vw;
+        margin: -40px -10px 0 -55px;
+    }
+
+    #v-sub-conteiner-1 {
+        margin: 55px 0 0 9px;
+    }
+
+    #v-conteiner-3 {
+        margin: 130px 0 0 65px;
+    }
+
+    #v-img-aktery {
+        width: 19vw;
+        margin: -68px 0px 0 -352px;
+    }
+
+    #v-img-postanovka {
+        margin: 50px auto;
+        position: relative;
+        left: 40px;    
+        top: 125px;
+        width: 26vw;
+    }
+
+    #v-h1-format-1 {
+        font-size: 31px;
+        letter-spacing: 0.6px;
+    }
+
+    #v-h1-format {
+        font-size: 34px;
+        margin: 37px 0 0 2px;
+        letter-spacing: -1.2px;
+    }
+
+    #v-spisok {                                /* список из раздела "Что узнаем" */
         font-family: 'Roboto', sans-serif;
         margin-bottom: 0;
         padding-bottom: 5px;
@@ -1823,207 +1948,577 @@ footer{
         
         
     }
-    .z-block2 h2{
-        padding-top: 42px;
-        padding-left: 5px;
-        font-size: 26px;
-        margin-bottom: 1.1em;
-        line-height: 101%;
-        margin-top: 0;
 
+    .v-par-1 {
+        font-size: 14px;
+        margin: -22px 0px 50px -43px;
+        width: 372px;
     }
-    .z-item-img{
+    
+    .v-par-2 {                                     /* описание "О КУРСЕ" часть 2*/
+        font-size: 14px;
+        margin: -22px 0px 2px -43px;
+        width: 382px; 
+    }
+
+    .v-par-3 {
+        font-size: 16px;
+        margin: -44px 0px 0px -26px;
+    }
+
+    #chasa{
+        margin: -44px 0px 0px -79px;
+    }
+
+    #kazhd {
+        margin: 0px 40px 0px -79px;
+        width: 125px;
+    }
+
+    #kurdlit {
+        width: 115px;
+    }
+
+    .v-par-4 {
+        font-size: 12px;
+        width: 155px;
+        margin: 0 60px 0 -25px;
+    }
+
+    #v-center-conteiner-1 {
+        margin: -40px 108px 129px 70px;
+    }
+
+    #v-center-conteiner-2 {
+        margin: -67px 112px 115px 70px;
+    }
+
+    #v-center-conteiner-3 {
+        margin: -67px 112px 0 68px;
+    }
+
+    .v-par-center-1 {
+        margin: 6px 0px 10px 0px;
+        letter-spacing: 0.1px;
+        font-size: 15px;
+        width: 184px;
+    }
+
+    .v-par-center-2 {
+        margin: 0 -150px 0 0px;
+        font-size: 19px;
+        width: 135px;
+        font-size: 11px;
+    }
+
+    #dostup {
+        letter-spacing: 0.1px;
+        margin: 6px 0px 0px 16px;
+    }
+
+    #dostup2 {
+        margin: -5px 30px 0px 15px;
+        width: 160px;
+    }
+
+    #obshenie {
+        margin: 6px 70px -6px 0px;
+    }
+
+    #obshenie2 {
+        margin: 0px 70px 0px 0px;
+        width: 160px;
+    }
+
+    #v-center-conteiner-5 {
+        margin: 2px 112px 0 70px;
+        width: 600px;
+    }
+
+    #v-spisok {
+        font-size: 15px;
+        letter-spacing: -0.5px;
+        line-height: 1.4;
+    }
+
+    #v-spisok-ul {
+        width: 380px;
+    }
+
+    #v-img-postanovka {
+        margin: -7px 0 0 -8px;
+        width: 27vw;
+    }
+
+    .a-programma-kursa {
+        margin: 0px 40px 0px 0px;
+    }
+
+    .a-head-container {
+        padding-left: 50px;
+        margin: 15px 0px 104px 0px;
+        width: 834px;
+    }
+
+    .a-design-line {
+        width: 980px;
+        height: 10px;
+        background-color: black;
+        margin: 43px 0px 0px -20px;
+    }
+
+    .a-course-name {
+        font-size: 34px;
+        margin: 24px 130px 0px 20px;
+        letter-spacing: -1.5px;
+    }    
+
+    .a-big-container-1 {
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: -2px;
     }
-    .z-item-img img{
-        padding-left: 5px;
-        margin-right: 0;
-        
-    }
-    .z-face{
-        width: 93px;
-        height: 97px;
-        margin-left: 10px;
-        margin-right: 5px;
 
+    .a-super-container {
+        padding-left: 15px;
+        width: 844px;
     }
-    .z-name{
-        padding-top: 26px;
-        margin-left: 2px;
-        width: 150px; 
 
+    .a-item {
+        height: 189px;
+        width: 231px;
+        margin: -30px 50px 0px 0px;
     }
-    .z-linkf{
-        margin-top: 0;
-    }
-    .z-linkf img{
-        margin-top: 17px;
-        width: 16px;
-        height: 18px;
 
+    .a-item-name {
+        font-size: 17px;
+        margin: 2px 0px 0px 16px;
     }
-    .z-amg {
+
+    #oneC {
+        margin: -30px 20px 0px 30px;
+    }
+
+    .a-date-item {
+        font-size: 14px;
+        margin: 22px 5px 0px 20px;
+    }
+
+    #rezh {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #rezhitem {
+        margin: -30px 50px 0px -30px;
+    }
+
+    #rezh1 {
+        margin: 2px 0px 0px 20px;
+    }
+
+    #rezh2 {
+        margin: 22px 0px 0px 20px;
+    }
+
+    #rezh3 {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .a-autor-item {
+        font-size: 14px;
+        margin: 3px 0px 0px 20px;
+    }
+    
+    .a-item-avatar{
+        width: 231px;
+    }
+
+    .a-item-name1 {
+        font-size: 17px;
+        margin: 1px 0px 0px 16px;
+    }
+
+    .a-item1 {
+        height: 189px;
+        width: 231px;
+        margin: 25px 20px 30px 30px;
+    }
+
+    .a-item2 {
+        height: 189px;
+        width: 231px;
+        margin: -5px 15px 30px 32px;
+    }
+
+    #zhanr {
+        margin: 25px 20px 30px 0px;
+    }
+
+    #seminar {
+        margin: 25px 20px 30px 0px;
+    }
+
+    #a-item2 {
+        margin: -5px 5px 30px 7px;
+    }
+
+    #vzglyad {
+        margin: 1px 0px 0px 14px;
+    }
+
+    #big-size-name {
+        margin: 3px 0px 0px 13px;
+        font-size: 17px;
+    }
+
+    #big-size-date {
+        font-size: 14px;
+        margin: 5px 5px 0px 12px;
+    }
+
+    #big-size-autor {
+        font-size: 14px;
+        margin: 3px 0px 0px 12px;
+    }
+
+    .a-img-container {
+        margin: 25px 0 0px -434px;
+        width: 18vw;
+    }
+
+    #ak.a-course-name {
+        margin: 10px 0px 0px 70px;
+        font-size: 32px;
+        letter-spacing: 0.1px;
+    }
+
+    .a-ava-author {
+        margin: -239px 0 0 72px;
+        width: 110px;
+        height: 110px;
+    } 
+
+    .a-ava-author1 {
+        margin: -273px 0px 0 252px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .a-author-name {
+        font-size: 17px;
+        margin: -209px 0px 0px 8px;
+        line-height: 101.38%;
+        letter-spacing: 0.2px;
+    }
+
+    .a-author-name1 {
+        font-size: 17px;
+        margin: -242px 0px 0px 3px;
+        line-height: 101.38%;
+        letter-spacing: 0.1px;
+    }
+
+    #dka.a-about-the-author {
+        font-size: 10px;
+        margin: -182px 0 0 -157px;
+    }
+  
+    #dsa.a-about-the-author {
+        font-size: 10px;
+        margin: -217px 0 0 -156px;
+        letter-spacing: 0.1px;
+    }
+
+    img#dki.znak {
+        width: 29.5px;
+        height: 29.5px;
+        margin: 0px 0px 0px 150px;
+    }
+
+    img#dsi.znak {
+        width: 29.5px;
+        height: 29.5px;
+        margin: 0px 0px 0px -670px;
+    }
+
+    .a-course-authors {
+        display: flex;
+        height: 347px;
+    }
+
+    div#dkh.hov {
+        position: absolute;
+        left: 547px;
+        width: 58px;
+        height: 58px;
+        top: -219px;
+    }
+
+    div#dsh.hov {
+        position: absolute;
+        left: 860px;
+        width: 58px;
+        height: 58px;
+        top: -346px;
+    }
+
+
+} 
+
+@media (min-width: 375px) and (max-width: 833px){
+    
+    #v-sinhron-img {                  /* самая верхняя картинка 1 раздела "Как смотреть кино" */
+        margin: 36px 0 61px 34px;
+    }
+
+    #v-date-conteiner {                 /* контейнер с датой курса*/
+        margin: 15px 0px 0 34px;
+        width: 700px;
+    }
+
+    #v-h1-main {
+        margin: 21px 0 0 34px;
+        font-size: 76px;
+        font-stretch:semi-expanded; 
+        letter-spacing: 1.4px; 
+        line-height: 100%;
+    }
+
+    #v-oclock-img {
+        margin-right: 7px;
+    }
+
+    #v-kalendar-img {
+        margin-right: 15px;
+    }
+
+    .v-date {                                /* шрифт первого раздела*/
+        font-size: 19px;
+        margin: 0 10px 0 0;
+    }
+
+    #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
         display: flex;
         flex-direction: column;
         
     }
-    a img{
-        margin-top: 25px;
+
+    #v-p-spitch {                       /* стилизация вступления 1 раздела*/
+        margin: 33px 0 0px 34px;
     }
-    
-    /* конец серого блока */
-    /* начало зеленого блока */
-    .z-tiles-green{
-        background-color: #9DC9C8;
-        height: 363px;
-        font-family: 'Roboto Slab', serif;
-    
+
+    #v-director {                      /* картинка режиссер */
+        margin: -15px 0 0 369px;
+        position: relative;
+        bottom: 315px;
+        width: 72vw;
     }
-    .z-block-green{
-        width:90%;
-        height: 100%;
+
+    #v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
+        position: relative;
+        left: 42px;    
+        top: 102.74px;
+        margin: 0 0 0 0px;
+        width: 451px;
+        height: 189px;
+        line-height: normal;
     }
-    .z-block2-green{
-        width: 100%;
-        margin: 0 0 0 24px;
-        height: 100%;
+
+    #v-quote {
+        width: 470px;
+        font-size: 22px;
     }
-    .z-block2-green h2{
-        padding-top: 2.4em;
-        font-size: 26px;
-        margin-bottom: 1.2em;
-        margin-top: 0;
-        font-weight: 700;
-        width: 225px;
-        line-height: 100%;
-        padding-left: 12px;
+
+    #v-main-conteiner-1 {               /* разделен на два контейнера */
+        display: flex;
+        flex-direction: column;
+        margin: 35px 0 0 34px;
     }
-    .z-block2-green h3{
-        font-size: 12px;
-        font-weight: 400;
-        margin-bottom: 2px;
-        font-family: 'Roboto', sans-serif;
-        padding-left: 12px
+
+    #v-h1 {
+        margin: 205px 0 37px 8px;
+        font-size: 50px;
     }
-    .z-block2-green p{
-        font-size: 37px;
-        margin-top: 0;
-        margin-bottom: 23px;
-        line-height: 101%;
-        font-family: 'Roboto', sans-serif;
-        padding-left: 12px;
-    
+
+    .v-par-1 {
+        width: 650px;
     }
-    .z-columns{
+
+    .v-par-2 {
+        width: 630px;
+    }
+
+    #v-conteiner-3 {
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+
+    #v-img-1 {
+        width: 85vw;
+        margin: -10px 0 0 155px;
+    }
+
+    #v-conteiner-2 {                   /*  "О КУРСЕ" стилизация контейнеров */
         display: flex;
         width: 100%;
         justify-content: space-between;
     
     }
-    
-    .z-columns1 p{
-        font-size: 10px;
-        font-weight: 400;
-        padding-left: 12px;      
-    }
-    .z-columns2 p{
-        font-weight: 400;
-        font-size: 10px;
-        padding-left: 0px;      
-    }
-    .z-columns1 h3{
-        font-size: 12px;
-        margin-bottom: 8px;
-        padding-left: 12px;
-    }
-    .z-columns2 h3{
-        font-size: 12px;
-        margin-bottom: 8px;
-        padding-left: 0px;
-    }
-    /* конец зеленого блока */
-    /* начало черного блока */
-    
-    footer{
-        background-color: black;
-        height: 251px;
-    }
-    .z-footmain{
-        margin: auto;
-        color: white;
-        width: 83%;
-        display: block; 
-        
-    
-    }
-    .z-logo{
-        margin-top: 25px;
-        width: 53px;
-        margin-bottom: 11px;
-        margin-left: 9px;
-    }
-    .z-foot-img{
-        width: 100%;
-    }
-    .z-foot-img img{
-        width: 15px;
-        height: 15px;
-        margin-right: 6px;       
-    }
-    #z-first-item{
-        margin-left: 9px;
-    }
-    .z-foot-rigts div{
+
+    #v-sub-sub-cont {
         display: flex;
-        margin-left: 9px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 550px;
+        margin: 71px 0 0 -147px;
+    }
+
+    #v-sub-conteiner-0 {            
+        position: absolute;
+        top: 207px;
+        left: 400px; 
+        margin: 0 0 0 0;
+    }
+
+    #v-img-2 {
+        width: 56vw;
+    }
+
+    #v-sub-conteiner-1, #v-sub-conteiner-2, #v-sub-conteiner-3 {
+        margin: 0;
+    }
+
+    #v-sub-conteiner-3 {
+        margin: 45px 0 15px 0;
     }
     
-    .z-foot-rigts{
-        margin-top: 20px;
+    #v-main-conteiner-2 {
+        margin: 0 0 0 55px;
     }
-    .z-footwrapper p{
-        margin-top: 68%;
+
+    #v-center-conteiner-2 {           /* стилизация контейнеров "Формат занятий" */        
+        margin: -43px 112px 0 34px;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
     }
-    .z-footwrapper{
-        height: 100px;
+
+    #v-center-conteiner-1 {
+        margin: 133px 108px 0 34px;
+        width: 600px;
+        font-stretch:extra-expanded; 
     }
-    .z-badge{
-        font-size: 10px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        margin-bottom: 0;
+
+    #v-sub-center-1 {
+        margin: 53px 0px 0px 0px;
+        width: 450px;
+    }
+
+    #v-sub-center-2 {
+        margin: 60px 0px 0px 0px;
+        width: 370px;
+    }
+
+    #v-sub-center-3 {
+        margin: 57px 0px 0px 0px;
+        width: 430px;
+    }
+
+    .v-par-center-1{
+        margin: 5px 0 0 0;
+    }
+
+    .v-par-center-2 {
+        margin: 5px 0 0 0;
+        width: 340px;
+        font-size: 20px;
+    }
+    
+    #v-img-aktery {
+        position: absolute;
+        top: 3080px;
+        left: 375px;
+        width: 65vw;
+    }
+
+    #v-h1-format {
+        width: 570px;
+        margin: -5px 0 0 5px;
+    }
+
+    #v-h1-format-1 {
+        width: 570px;
+    }
+
+    #v-spisok {
+        width: 600px;
+        margin: 12px 0 0 25px;
+    }
+    
+    li {
+        width: 600px;
+    }
+
+    #v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
+        margin: 155px 112px 0 34px;
+        width: 300px;
+    }
+     
+    #v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
+        display: flex;
+        flex-direction: column;
+        margin: 0 112px 0 25px;
+    }
+
+    #v-img-postanovka {
+        margin: 50px auto;
+        position: relative;
+        left: 140px;
+        bottom: 5px;    
+        width: 92vw;
+    }
+
+    .a-super-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+        margin: 30px 0 30px 60px;
+        align-items: center;
+    }
+    
+    .a-big-container-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .a-big-container-2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .a-programma-kursa {
+        padding-left: 70px;
+        margin: 60px 40px 0 0;
+    }
+
+    .a-item {
+        margin: 30px auto;
+    }
+
+    .a-img-container {
         display: none;
-               
     }
-    .z-badge2{
-        font-size: 10px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        margin-bottom: 0; 
-        margin-left: 9px;   
-        margin-top: 045px;
-        color: white;  
-        display: block;  
+
+    .a-head-container {
+        margin: 30px 0;
+        padding: 0 0 0 80px;
     }
-    .z-telephon {
-        font-size: 12px;
-        margin: 16px 24px 10px 10px;
-        font-family: 'Roboto', sans-serif;
-    }
-    .z-email{
-        font-size: 12px;
-        margin: 0 24px 0 10px;
-        font-family: 'Roboto', sans-serif;
-    }
-    .z-telephonimg{
-        margin-top: 16px;
-        margin-right: 0px;
-        width: 12px;    
-        height: 12px;
-    }
-    .z-emailimg{
-        width: 12px;
-        height: 8px;
-        margin-right: 0px;
-    }
-}
+
+} 
