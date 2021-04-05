@@ -1,10 +1,10 @@
  /* Импорты */
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
-
-
+ 
+ 
+ 
+ 
 /* -----------------------------------------------------------------------------------*/
                            /* стилизация раздела "О КУРСЕ" */
 
@@ -499,6 +499,10 @@
     margin: -100px 0 0px 315px;   
 }
 
+.a-name-about{
+    display: none;
+}
+
 .a-author-name {
     font-size: 32px;
     font-family: 'Roboto Slab', serif;
@@ -605,6 +609,13 @@ div#dsh.hov {
     right: 370px;
     margin-bottom: 50px;
 }
+#avtor-description {
+    display: none;
+}
+
+#avtor-description-2 {
+  display: none;
+}
 
 
 /* Начало серого блока */
@@ -622,7 +633,7 @@ div#dsh.hov {
     width: 79.5%;
     margin: auto;
     height: 100%;
-          
+            
 }
 .z-infa{
     background-color: white;
@@ -648,22 +659,22 @@ div#dsh.hov {
     font-size: 55px;
     margin-bottom: 1.1em;
 }
-.item-img{
+.z-item-img{
     display: flex;
 }
-.item-img img{
+.z-item-img img{
     padding-left: 26px;
     margin-right: 5px;
 }
-.amg {
+.z-amg {
     display: flex;
     flex-direction: column;
     
 }
-.linkf{
+.z-linkf{
     margin-top: 25px;
 }
-.name{
+.z-name{
     padding-top: 45px;    
 }
 /* конец серого блока */
@@ -742,7 +753,7 @@ footer{
     justify-content: space-between;   
 
 }
-.logo{
+.z-logo{
     margin-top: 23%;
     width: 116px;
     margin-bottom: 29px;
@@ -766,238 +777,43 @@ footer{
 .z-footwrapper p{
     margin-top: 60%;
 }
-.badge{
+.z-badge{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.telephon {
+
+.z-badge2{
+    display: none;
+}
+
+.z-telephon {
     font-size: 25px;
     margin: 30px 50px 10px 10px;
     font-family: 'Roboto', sans-serif;
 }
-.email{
+.z-email{
     font-size: 25px;
     margin: 0 50px 0 10px;
     font-family: 'Roboto', sans-serif;
 }
-.telephonimg{
+.z-telephonimg{
     margin-top: 27px;
     margin-right: 10px;
     width: 27px;    
     height: 27px;
 }
-.emailimg{
+.z-emailimg{
     width: 27px;
     height: 27px;
     margin-right: 10px;
 }
-
-@media (max-width: 1279px ) and (min-width: 834px) {
-    .z-tiles-gray{
-        background-color: #EFEFEF;
-        width: 100%;
-        height: 451px;
-        font-family: 'Roboto Slab', serif;
-    }
-    .z-block{
-        width:85%;
-        height: 100%;       
-    }
-    .z-block2{
-        width: 79.5%;
-        margin: auto;
-        height: 100%;
-    }
-    
-    .z-infa{
-        background-color: white;
-        height: 261px;
-        width: 458px;
-        border-radius: 17px;
-        padding-bottom: 0px;
-    }
-    .z-infa p{
-        font-size: 12px;
-        padding: 2em;
-        padding-left: 2.3em;
-        line-height: 150%;
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 0;
-        padding-bottom: 1.3em;
-        
-    }
-    .z-block2 h2{
-        padding-top: 1.5em;
-        font-size: 32px;
-        margin-bottom: 1.1em;
-    }
-    .item-img{
-        display: flex;
-    }
-    .item-img img{
-        padding-left: 15px;
-        margin-right: 5px;
-        
-    }
-    .face{
-        width: 110px;
-        height: 97px;
-    }
-    .name{
-        padding-top: 25px;
-        width: 180px;    
-    }
-    .linkf{
-        margin-top: 0;
-    }
-    .linkf img{
-        margin-top: 16px;
-        width: 18px;
-    }
-    .amg {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    a img{
-        margin-top: 25px;
-    }
-    
-    /* конец серого блока */
-    /* начало зеленого блока */
-    .z-tiles-green{
-        background-color: #9DC9C8;
-        height: 451px;
-        font-family: 'Roboto Slab', serif;
-    
-    }
-    .z-block-green{
-        width:85%;
-        height: 100%;
-    }
-    .z-block2-green{
-        width: 80%;
-        margin: auto;
-        height: 100%;
-    }
-    .z-block2-green h2{
-        padding-top: 3.15em;
-        font-size: 32px;
-        margin-bottom: 1em;
-        margin-top: 0;
-        font-weight: 700;
-    }
-    .z-block2-green h3{
-        font-size: 14px;
-        font-weight: 400;
-        margin-bottom: 0;
-        font-family: 'Roboto', sans-serif;
-    }
-    .z-block2-green p{
-        font-size: 46px;
-        margin-top: 0;
-        margin-bottom: 30px;
-        line-height: 101%;
-        font-family: 'Roboto', sans-serif;
-    
-    }
-    .z-columns{
-        display: flex;
-    
-    }
-    .z-columns1{
-        margin-right: 5.8vw;
-        }
-    .z-columns1 p{
-        font-size: 10px;
-        font-weight: 400;
-        
-    }
-    .z-columns2 p{
-        font-weight: 400;
-        font-size: 10px;
-    }
-    .z-columns1 h3{
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-    .z-columns2 h3{
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-    /* конец зеленого блока */
-    /* начало черного блока */
-    
-    footer{
-        background-color: black;
-        height: 225px;
-    }
-    .z-footmain{
-        margin: auto;
-        color: white;
-        width: 83%;
-        display: flex; 
-        justify-content: space-between;   
-    
-    }
-    .logo{
-        margin-top: 30px;
-        width: 66px;
-        margin-bottom: 14px;
-    }
-    .z-foot-img{
-        width: 100%;
-    }
-    .z-foot-img img{
-        width: 20px;
-        height: 20px;
-        margin-right: 6px;    
-        
-    }
-    .z-foot-rigts div{
-        display: flex;
-    }
-    
-    .z-foot-rigts{
-        margin-top: 20px;
-    }
-    .z-footwrapper p{
-        margin-top: 68%;
-    }
-    .badge{
-        font-size: 10px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        margin-bottom: 0;
-       
-    }
-    .telephon {
-        font-size: 14px;
-        margin: 16px 24px 10px 10px;
-        font-family: 'Roboto', sans-serif;
-    }
-    .email{
-        font-size: 14px;
-        margin: 0 24px 0 10px;
-        font-family: 'Roboto', sans-serif;
-    }
-    .telephonimg{
-        margin-top: 16px;
-        margin-right: 0px;
-        width: 15px;    
-        height: 15px;
-    }
-    .emailimg{
-        width: 15px;
-        height: 10px;
-        margin-right: 0px;
-    }
-}
-
-
+ 
+ 
+ 
 /* Адаптивная верстка. Вадим. */
-
+ 
+ 
 @media (min-width: 834px) and (max-width: 1279px){
     
     #v-sinhron-img {
@@ -1058,12 +874,12 @@ footer{
     }
 
     .v-date {
-        margin: 11px -10px 0px 6px;
+        margin: 11px 35px 0px 6px;
         font-size: 12px;
     }
 
     #online {
-        margin: 11px 16px 0px 0px;
+        margin: 11px 30px 0px 0px;
     }
 
     #v-oclock-img {
@@ -1193,7 +1009,7 @@ footer{
     }
 
     #dostup2 {
-        margin: -5px 30px 0px 15px;
+        margin: 10px 30px 0px 15px;
         width: 160px;
     }
 
@@ -1202,7 +1018,7 @@ footer{
     }
 
     #obshenie2 {
-        margin: 0px 70px 0px 0px;
+        margin: 12px 70px 0px 0px;
         width: 160px;
     }
 
@@ -1375,10 +1191,15 @@ footer{
         height: 110px;
     } 
 
+
     .a-ava-author1 {
         margin: -273px 0px 0 252px;
         width: 110px;
         height: 110px;
+    }
+
+    .a-name-about{
+        display: none;
     }
 
     .a-author-name {
@@ -1439,264 +1260,1041 @@ footer{
         top: -346px;
     }
 
+    #avtor-description {
+        display: none;
+    }
+
+    #avtor-description-2 {
+      display: none;
+    }
+
+    .z-tiles-gray{
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 451px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .z-block{
+        width:85%;
+        height: 100%;       
+    }
+    .z-block2{
+        width: 79.5%;
+        margin: auto;
+        height: 100%;
+    }
+    
+    .z-infa{
+        background-color: white;
+        height: 261px;
+        width: 458px;
+        border-radius: 17px;
+        padding-bottom: 0px;
+    }
+    .z-infa p{
+        font-size: 12px;
+        padding: 2em;
+        padding-left: 2.3em;
+        line-height: 150%;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 0;
+        padding-bottom: 1.3em;
+        
+    }
+    .z-block2 h2{
+        padding-top: 1.5em;
+        font-size: 32px;
+        margin-bottom: 1.1em;
+    }
+    .z-item-img{
+        display: flex;
+    }
+    .z-item-img img{
+        padding-left: 15px;
+        margin-right: 5px;
+        
+    }
+    .z-face{
+        width: 110px;
+        height: 97px;
+    }
+    .z-name{
+        padding-top: 25px;
+        width: 180px;    
+    }
+    .z-linkf{
+        margin-top: 0;
+    }
+    .z-linkf img{
+        margin-top: 16px;
+        width: 18px;
+    }
+    .z-amg {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    a img{
+        margin-top: 25px;
+    }
+    
+    /* конец серого блока */
+    /* начало зеленого блока */
+    .z-tiles-green{
+        background-color: #9DC9C8;
+        height: 451px;
+        font-family: 'Roboto Slab', serif;
+    
+    }
+    .z-block-green{
+        width:85%;
+        height: 100%;
+    }
+    .z-block2-green{
+        width: 80%;
+        margin: auto;
+        height: 100%;
+    }
+    .z-block2-green h2{
+        padding-top: 3.15em;
+        font-size: 32px;
+        margin-bottom: 1em;
+        margin-top: 0;
+        font-weight: 700;
+    }
+    .z-block2-green h3{
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .z-block2-green p{
+        font-size: 46px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        line-height: 101%;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .z-columns{
+        display: flex;
+    
+    }
+    .z-columns1{
+        margin-right: 5.8vw;
+        }
+    .z-columns1 p{
+        font-size: 10px;
+        font-weight: 400;
+        
+    }
+    .z-columns2 p{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .z-columns1 h3{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .z-columns2 h3{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    /* конец зеленого блока */
+    /* начало черного блока */
+    
+    footer{
+        background-color: black;
+        height: 225px;
+    }
+    .z-footmain{
+        margin: auto;
+        color: white;
+        width: 83%;
+        display: flex; 
+        justify-content: space-between;   
+    
+    }
+    .z-logo{
+        margin-top: 30px;
+        width: 66px;
+        margin-bottom: 14px;
+    }
+    .z-foot-img{
+        width: 100%;
+    }
+    .z-foot-img img{
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;    
+        
+    }
+    .z-foot-rigts div{
+        display: flex;
+    }
+    
+    .z-foot-rigts{
+        margin-top: 20px;
+    }
+    .z-footwrapper p{
+        margin-top: 68%;
+    }
+    .z-badge{
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-bottom: 0;       
+    }
+
+    .z-badge2 {
+        display: none;
+    }
+
+    .z-telephon {
+        font-size: 14px;
+        margin: 16px 24px 10px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .z-email{
+        font-size: 14px;
+        margin: 0 24px 0 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .z-telephonimg{
+        margin-top: 16px;
+        margin-right: 0px;
+        width: 15px;    
+        height: 15px;
+    }
+    .z-emailimg{
+        width: 15px;
+        height: 10px;
+        margin-right: 0px;
+    }
 
 } 
-
+ 
 @media (min-width: 375px) and (max-width: 833px){
-    
-    #v-sinhron-img {                  /* самая верхняя картинка 1 раздела "Как смотреть кино" */
-        margin: 36px 0 61px 34px;
-    }
 
+    body {
+        margin: 8px 0 0 8px;
+    }
+ 
+    #v-sinhron-img {                  /* самая верхняя картинка 1 раздела "Как смотреть кино" */
+        margin: 36px 0 23px 34px;
+        width: 52px;
+        height: 30px;
+    }
+ 
     #v-date-conteiner {                 /* контейнер с датой курса*/
         margin: 15px 0px 0 34px;
-        width: 700px;
+        width: 100%;
+        height: 15px;
+        align-items: center;
     }
-
+ 
     #v-h1-main {
-        margin: 21px 0 0 34px;
-        font-size: 76px;
+        margin: 11px 0 0 34px;
+        font-size: 37px;
         font-stretch:semi-expanded; 
-        letter-spacing: 1.4px; 
         line-height: 100%;
+        width: 100%;
+        letter-spacing: normal;
     }
 
+    #v-globus-img {
+        margin-right: 4px;
+        height: 10px;
+
+    }
+ 
     #v-oclock-img {
-        margin-right: 7px;
+        margin-right: 5px;
+        height: 10px;
+        margin-left: 4px;
     }
-
+ 
     #v-kalendar-img {
-        margin-right: 15px;
+        margin-right: 6px;
+        height: 10px;
+        margin-left: 9px;
+        
     }
-
+ 
     .v-date {                                /* шрифт первого раздела*/
-        font-size: 19px;
+        font-size: 10px;
         margin: 0 10px 0 0;
+        padding: 0;
     }
-
+ 
     #v-start-conteiner-owner {      /* контерйнер первого раздела "КАК СМОТРЕТЬ КИНО" */     
         display: flex;
         flex-direction: column;
         width: 85%;
     }
-
+ 
     #v-p-spitch {                       /* стилизация вступления 1 раздела*/
-        margin: 33px 0 0px 34px;
+        margin: 16px 0 0px 34px;
+        font-size: 10px;
+        width: 70%;
+        
     }
-
+ 
     #v-director {                      /* картинка режиссер */
-        margin: -15px 0 0 369px;
+        margin: 0px 0 0 200px;        
         position: relative;
-        bottom: 315px;
-        width: 72vw;
+        top: 0px;
+        width: 141px;
+        
+        
     }
-
+ 
     #v-start-conteiner-quote {              /* стилизация формы под цитату от Тарковского*/
         position: relative;
-        left: 42px;    
-        top: 102.74px;
+        left: 40px;    
+        top: 35px;               
         margin: 0 0 0 0px;
-        width: 451px;
-        height: 189px;
+        width: 225px;
+        height: 93px;
         line-height: normal;
+        padding: 4px 10px 10px 12px;
     }
-
+ 
     #v-quote {
-        width: 470px;
-        font-size: 22px;
+        width: 100%;
+        font-size: 11px;
     }
-
+    #v-autor {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+ 
     #v-main-conteiner-1 {               /* разделен на два контейнера */
         display: flex;
         flex-direction: column;
-        margin: 35px 0 0 34px;
+        margin: 35px 0 0 30px;
     }
-
+    #v-conteiner-1 {
+        width: 100%;
+    }
+ 
     #v-h1 {
-        margin: 205px 0 37px 8px;
-        font-size: 50px;
+        margin: 71px 0 13px 6px;
+        font-size: 26px;
     }
-
+ 
     .v-par-1 {
-        width: 650px;
+        width: 94%;
+        font-size: 12px;
     }
-
+ 
     .v-par-2 {
-        width: 630px;
-    }
-
+        font-size: 12px;
+        margin-top: 28px;
+        width: 94%;
+        position: static;        
+    }    
+ 
     #v-conteiner-3 {
-        margin: 0 auto;
-        position: relative;
-        left: 0px;
-        top: 50px;
+        margin: 11px 0 0 68px;
+        position: static;
+        
     }
-
+ 
     #v-img-1 {
-        width: 85vw;
-        margin: -10px 0 0 155px;
+        width: 172px;
+        margin: 0px 0 0 0px;
     }
-
+ 
     #v-conteiner-2 {                   /*  "О КУРСЕ" стилизация контейнеров */
         display: flex;
         flex-direction: row-reverse;
-        padding: 20px; 
-        position: relative;
-        bottom: 0px;
-        left: 0px;
+        padding: 0px; 
+        position: static;
+        width: 100%;
+        
     }
-
+ 
     #v-sub-sub-cont {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 550px;
-        margin: 71px 0 0 -147px;
-    }
-
+        width: 100%;
+        margin: 42px 0 0 0px;
+    }    
+ 
     #v-sub-conteiner-0 {            
-        position: absolute;
-        top: 207px;
-        left: 400px; 
-        margin: 0 0 0 0;
+        /* position: absolute; */
+        position: static;
+        top: 0px;
+        right: 45px; 
+        margin: 80px 0px 0 0px;
+        width: 108px;
+        height: 94px;
     }
 
     #v-img-2 {
-        width: 56vw;
+        position: relative;
+        right: 38px;
     }
-
-    #v-sub-conteiner-1, #v-sub-conteiner-2, #v-sub-conteiner-3 {
+    #v-sub-conteiner-1 {            
+        position: static;
+        margin: 0 40px 0 0;
+        width: 35%;
+    }
+    #nedel{
+        margin: 0 0 3px 0;
+    }
+    #dlit {
+        margin: 0;
+    }
+    #kurdlit {
         margin: 0;
     }
 
+    .v-par-3{
+        font-size: 12px;
+        margin-left: 0;
+        position: static;
+        margin: 0 0 3px 0;
+        width: 100%;
+    }
+    .v-par-4 {
+        font-size: 10px;
+        margin-left: 0;
+        position: static;
+        width: 100%;
+        margin: 0;
+    }
+      
+    #v-sub-conteiner-2 {
+        flex-direction: row;
+        display: block;
+        margin-top: 0;
+        position: static;
+        width: 36%;
+        margin-right: 0px;
+    }
+ 
     #v-sub-conteiner-3 {
-        margin: 45px 0 15px 0;
+        margin: 27px 0px 15px 0;
+        position: static;
+        width: 25%;
     }
-    
+ 
     #v-main-conteiner-2 {
-        margin: 0 0 0 55px;
+        margin: 0 0 0 34px;
     }
-
+ 
     #v-center-conteiner-2 {           /* стилизация контейнеров "Формат занятий" */        
-        margin: -43px 112px 0 34px;
+        margin: 0px 112px 0 34px;
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 100%;
     }
-
+ 
     #v-center-conteiner-1 {
-        margin: 133px 108px 0 34px;
-        width: 600px;
+        margin: 50px 108px 0 34px;
+        width: 100%;
         font-stretch:extra-expanded; 
     }
-
+    #v-center-conteiner-4 {
+        position: relative;
+        margin: 0 auto;
+        width: 1%;
+    }
+ 
     #v-sub-center-1 {
-        margin: 53px 0px 0px 0px;
-        width: 450px;
+        margin: 6px 0px 0px 0px;
+        width: 100%;
     }
-
+ 
     #v-sub-center-2 {
-        margin: 60px 0px 0px 0px;
-        width: 370px;
+        margin: 29px 0px 0px 0px;
+        width: 100%;
     }
-
+ 
     #v-sub-center-3 {
-        margin: 57px 0px 0px 0px;
-        width: 430px;
+        margin: 29px 0px 0px 0px;
+        width: 100%;
     }
-
+ 
     .v-par-center-1{
-        margin: 5px 0 0 0;
+        margin: 4px 0 0 0;
+        font-size: 12px;
     }
-
+ 
     .v-par-center-2 {
-        margin: 5px 0 0 0;
-        width: 340px;
-        font-size: 20px;
+        margin: 4px 0 0 0;
+        width: 48%;
+        font-size: 10px;
     }
-    
+ 
     #v-img-aktery {
         position: absolute;
-        top: 3080px;
-        left: 375px;
-        width: 65vw;
+        top: -32px;      
+        left: 15px;    
+        width: 135px;
+        margin: 0;
     }
-
+ 
     #v-h1-format {
-        width: 570px;
-        margin: -5px 0 0 5px;
+        width: 100%;
+        margin: -5px 0 0 0px;
+        font-size: 26px;        
     }
-
+ 
     #v-h1-format-1 {
-        width: 570px;
+        width: 100%;
+        font-size: 26px;
     }
-
+ 
     #v-spisok {
-        width: 600px;
-        margin: 12px 0 0 25px;
+        width: 100%;
+        margin: 23px 0 0 20px;
     }
-    
+    #v-spisok-ul {
+        width: 95%;
+        padding: 0;
+        margin: 0;
+    }
+ 
     li {
-        width: 600px;
+        width: 100%;
+        font-size: 12px;
     }
-
+ 
     #v-center-conteiner-3 {              /* стилизация раздела "Что узнаем" */
-        margin: 155px 112px 0 34px;
-        width: 300px;
+        margin: 79px 0px 0 34px;
+        width: 100%;
     }
-     
+ 
     #v-center-conteiner-5 {          /* контейнер раздела с списком и картинкой */
         display: flex;
         flex-direction: column;
         margin: 0 112px 0 25px;
     }
-
+ 
     #v-img-postanovka {
-        margin: 50px auto;
+        margin: 50px 0 23px 0;
         position: relative;
-        left: 140px;
-        bottom: 5px;    
-        width: 92vw;
+        left: 70px;
+        bottom: 20px;    
+        width: 179px;
+    }
+    .a-programma-kursa {       
+        margin: 0px 0px 0 34px;
     }
 
+    .a-course-name {
+        font-size: 26px;
+        width: 80%;
+        margin: 0;
+    }
+
+
+        
+    .a-design-line {
+        width: 70px;
+        height: 6px;
+        background-color: black;
+        margin: 16px 0px 0px 5px;
+    }
+ 
     .a-super-container {
         display: flex;
         flex-direction: column;
-        padding-left: 60px;
-        margin: 30px 0 30px 60px;
+        padding-left: 0px;
+        margin: 20px 0 0px 0px;
         align-items: center;
+        padding-top: 17px;
     }
-    
+ 
     .a-big-container-1 {
         display: flex;
         flex-direction: column;
         margin: 0;
         align-items: center;
+        margin-right: 25px;
     }
-
+ 
     .a-big-container-2 {
         display: flex;
         flex-direction: column;
         margin: 0;
         align-items: center;
+        margin-right: 25px;
     }
-
-    .a-programma-kursa {
-        padding-left: 70px;
-        margin: 60px 40px 0 0;
-    }
-
+   
     .a-item {
-        margin: 30px auto;
+        margin: 10px auto;
+        width: 185px;
+        height: 152px;
+        border-radius: 13px;
+        margin-bottom: 15px;
+    }
+
+    .a-item1 {
+        margin: 10px auto;
+        width: 185px;
+        height: 152px;
+        border-radius: 13px;
+        margin-bottom: 15px;
+    }
+
+    .a-item2 {
+        margin: 10px auto;
+        width: 185px;
+        height: 152px;
+        border-radius: 13px;
+        margin-bottom: 15px;
+    }
+
+    .a-item img {
+        width: 185px;
+    }
+
+    .a-item1 img {
+        width: 185px;
+    }
+
+    .a-item2 img {
+        width: 185px;
+    }
+
+    .a-item h2 {
+        font-size: 14px;
+        text-align: left;
+        margin: 3px 0 15px 7px;
+    }
+
+    .a-item1 h2 {
+        font-size: 14px;
+        text-align: left;
+        margin: 3px 0 15px 7px;
+    }
+
+    .a-item2 h2 {
+        font-size: 14px;
+        text-align: left;
+        margin: 3px 0 15px 7px;
+    }
+
+    #big-size-name {
+        font-size: 14px;
+        text-align: left;
+        margin-left: 7px;
+        margin-top: 3px;
+    }
+    #big-size-date {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 7px;
+        margin-right: 0px;
+        margin-top: 3px;
+    }
+    #big-size-autor {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 7px;
+        margin-right: 0px;
+    }
+
+    .a-item p {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 7px;
+        margin-right: 0px;
+    }
+
+    .a-item1 p {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 7px;
+        margin-right: 0px;
+    }
+
+    .a-item2 p {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 7px;
+        margin-right: 0px;
+    }
+
+    .a-date-item {
+        margin-top: 10px;             
     }
 
     .a-img-container {
         display: none;
     }
-
+ 
     .a-head-container {
-        margin: 30px 0;
-        padding: 0 0 0 80px;
+        margin: 0px 0;
+        padding: 0 0 0 0px;
     }
 
-} 
+    .a-course-authors{
+        display: block;
+        height: 693px;
+    }
+
+    #ak.a-course-name {
+        margin: 60px 0 0 0;
+        font-size: 26px;
+    }
+
+    #dk.a-author {
+        position: static;
+        height: 110px;
+
+    }
+    #ds.a-author{
+        position: static;
+        margin-top: 37px;
+        margin-left: -10px;
+    }
+    
+    
+    /* #avads {
+        position: relative;
+        top: 120px;
+        right: 6px;
+    } */
+
+
+
+    .a-ava-author {
+        width: 90px;
+        margin: -14px 0 0 -9px;        
+    }
+
+    .a-ava-author1 {
+        width: 90px;
+        margin: 36px 0 0px -1px;
+        height: 90px;
+    }
+
+    .a-name-about {
+        display: block;
+    }
+
+    .a-author-name2 {
+        font-size:  14px;
+        margin: 57px 0 0 7px;
+    }
+
+    .a-author-name1 {
+        display: none;
+    }
+
+    .a-author-name {
+        display: none;
+    }
+
+    .a-about-the-author2{
+        font-size: 10px;
+        margin: 4px 0 0 8px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+    .a-about-the-author{
+        display: none;
+    }
+
+    #dsa.a-about-the-author1{
+        font-size: 10px;
+        margin: 6px 0 0 7px;
+    }
+
+    #dsa.a-about-the-author{
+        display: none;
+    }
+
+    .znak {
+        display: none;
+    }
+    .a-about-the-author-full {
+        display: block;
+        font-size: 10px;
+    }
+    div#dkh.hov {
+        position: static;
+        font-size: 10px;
+        display: none;
+
+    }
+    #p-1 {
+        font-size: 10px;
+    }
+    div#dsh.hov {
+        position: static;
+        display: none;
+        
+    }
+    #avtor-description {
+        font-size: 10px;
+        display: block;        
+        margin: 10px 0 14px 87px;
+        width: 62%;
+        font-family:'Roboto', sans-serif;
+    }
+    #avtor-description-2 {
+        font-size: 10px;
+        display: block;
+        margin-left: 87px;
+        margin-top: 0px;
+        width: 62%;
+        font-family:'Roboto', sans-serif;
+    }
+
+    #div-avtor-description-2 {
+        margin-top: 6px;
+    }
+
+    /*-------------- Начало  блока ZAKHAR ----------------------------------- */
+
+    .z-tiles-gray{
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 423px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .z-block{
+        width:85%;
+        height: 100%;       
+    }
+    .z-block2{
+        width: 79.5%;
+        margin: auto;
+        height: 100%;
+    }
+
+    .z-infa{
+        background-color: white;
+        height: 248px;
+        width: 100%;
+        min-width: 308px;
+        max-width: 420px;
+        border-radius: 17px;
+        padding-bottom: 0px;
+        margin-left: 4px;
+    }
+    .z-infa p{
+        font-size: 10px;
+        padding: 19px;
+        padding-left: 2.3em;
+        line-height: 150%;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 0;
+        padding-bottom: 5px;
+        
+        
+        
+    }
+    .z-block2 h2{
+        padding-top: 42px;
+        padding-left: 5px;
+        font-size: 26px;
+        margin-bottom: 1.1em;
+        line-height: 101%;
+        margin-top: 0;
+
+    }
+    .z-item-img{
+        display: flex;
+    }
+    .z-item-img img{
+        padding-left: 5px;
+        margin-right: 0;
+        
+    }
+    .z-face{
+        width: 93px;
+        height: 97px;
+        margin-left: 10px;
+        margin-right: 5px;
+
+    }
+    .z-name{
+        padding-top: 26px;
+        margin-left: 2px;
+        width: 150px; 
+
+    }
+    .z-linkf{
+        margin-top: 0;
+    }
+    .z-linkf img{
+        margin-top: 17px;
+        width: 16px;
+        height: 18px;
+
+    }
+    .z-amg {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    a img{
+        margin-top: 25px;
+    }
+
+    /* конец серого блока */
+    /* начало зеленого блока */
+    .z-tiles-green{
+        background-color: #9DC9C8;
+        height: 363px;
+        font-family: 'Roboto Slab', serif;
+
+    }
+    .z-block-green{
+        width:90%;
+        height: 100%;
+    }
+    .z-block2-green{
+        width: 100%;
+        margin: 0 0 0 24px;
+        height: 100%;
+    }
+    .z-block2-green h2{
+        padding-top: 2.4em;
+        font-size: 26px;
+        margin-bottom: 1.2em;
+        margin-top: 0;
+        font-weight: 700;
+        width: 225px;
+        line-height: 100%;
+        padding-left: 12px;
+    }
+    .z-block2-green h3{
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 2px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 12px
+    }
+    .z-block2-green p{
+        font-size: 37px;
+        margin-top: 0;
+        margin-bottom: 23px;
+        line-height: 101%;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 12px;
+
+    }
+    .z-columns{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .z-columns1 p{
+        font-size: 10px;
+        font-weight: 400;
+        padding-left: 12px;      
+    }
+    .z-columns2 p{
+        font-weight: 400;
+        font-size: 10px;
+        padding-left: 0px;      
+    }
+    .z-columns1 h3{
+        font-size: 12px;
+        margin-bottom: 8px;
+        padding-left: 12px;
+    }
+    .z-columns2 h3{
+        font-size: 12px;
+        margin-bottom: 8px;
+        padding-left: 0px;
+    }
+    /* конец зеленого блока */
+    /* начало черного блока */
+
+    footer{
+        background-color: black;
+        height: 251px;
+    }
+    .z-footmain{
+        margin: auto;
+        color: white;
+        width: 83%;
+        display: block; 
+        
+
+    }
+    .z-logo{
+        margin-top: 25px;
+        width: 53px;
+        margin-bottom: 11px;
+        margin-left: 9px;
+    }
+    .z-foot-img{
+        width: 100%;
+    }
+    .z-foot-img img{
+        width: 15px;
+        height: 15px;
+        margin-right: 6px;       
+    }
+    #z-first-item{
+        margin-left: 9px;
+    }
+    .z-foot-rigts div{
+        display: flex;
+        margin-left: 9px;
+    }
+
+    .z-foot-rigts{
+        margin-top: 20px;
+    }
+    .z-footwrapper p{
+        margin-top: 68%;
+    }
+    .z-footwrapper{
+        height: 100px;
+    }
+    .z-badge{
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-bottom: 0;
+        display: none;
+            
+    }
+    .z-badge2{
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-bottom: 0; 
+        margin-left: 9px;   
+        margin-top: 045px;
+        color: white;  
+        display: block;  
+    }
+    .z-telephon {
+        font-size: 12px;
+        margin: 16px 24px 10px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .z-email{
+        font-size: 12px;
+        margin: 0 24px 0 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .z-telephonimg{
+        margin-top: 16px;
+        margin-right: 0px;
+        width: 12px;    
+        height: 12px;
+    }
+    .z-emailimg{
+        width: 12px;
+        height: 8px;
+        margin-right: 0px;
+    }
+}
