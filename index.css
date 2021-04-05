@@ -1249,7 +1249,7 @@ footer{
         left: 547px;
         width: 58px;
         height: 58px;
-        top: -229px;
+        top: -219px;
     }
 
     div#dsh.hov {
@@ -1485,7 +1485,6 @@ footer{
         font-size: 10px;
         width: 180px;
     }
-
     #dsh.hov:hover .a-about-the-author-full {
         display: block;
         opacity: 1;
