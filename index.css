@@ -1249,7 +1249,7 @@ footer{
         left: 547px;
         width: 58px;
         height: 58px;
-        top: -219px;
+        top: -229px;
     }
 
     div#dsh.hov {
@@ -1257,7 +1257,7 @@ footer{
         left: 860px;
         width: 58px;
         height: 58px;
-        top: -346px;
+        top: -350px;
     }
 
     #avtor-description {
@@ -1470,6 +1470,35 @@ footer{
         width: 15px;
         height: 10px;
         margin-right: 0px;
+    }
+
+    #dkh.hov:hover .a-about-the-author-full {
+        display: block;
+        opacity: 1;
+        transition: 0.2s;
+        border-radius: 30px;
+        box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
+        position: relative;
+        top: -25px;
+        left: -390px;
+        margin-bottom: 50px;
+        font-size: 10px;
+        width: 180px;
+    }
+
+    #dsh.hov:hover .a-about-the-author-full {
+        display: block;
+        opacity: 1;
+        transition: 0.2s;
+        border-radius: 30px;
+        box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
+        position: relative;
+        bottom: 235px;
+        right: 510px;
+        margin-bottom: 50px;
+        font-size: 10px;
+        width: 180px;
+        height: 175px;
     }
 
 } 
