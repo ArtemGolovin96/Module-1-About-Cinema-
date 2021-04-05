@@ -14,7 +14,7 @@
     <img src="./pictures/sinhron.svg" alt="img-sinhron" id="v-sinhron-img">
     <div id="v-date-conteiner">
       <img src="./pictures/globus.svg" alt="img-globus" id="v-globus-img">
-      <p class="v-date">онлайн курс</p>
+      <p id="online" class="v-date">онлайн-курс</p>
       <img src="./pictures/oclock.svg" alt="img-oclock" id="v-oclock-img">
       <p class="v-date">18 часов</p>
       <img src="./pictures/kalendar.svg" alt="img-kalendar" id="v-kalendar-img">
@@ -31,8 +31,8 @@
       </div>
     </div>
     <div id="v-start-conteiner-quote">
-      <p id="v-quote">Зритель для меня
-        не потребитель моей продукции, не судья, а соучастник творчества, соавтор.</p>
+      <p id="v-quote">Зритель для меня<br> не потребитель моей продукции,<br> не судья, а соучастник творчества,
+        соавтор.</p>
       <p id="v-autor">Андрей Тарковский</p>
     </div>
     <section id="v-main-conteiner-1">
@@ -60,12 +60,12 @@
             <p class="v-par-4">Для погружения в кинематограф</p>
           </div>
           <div id="v-sub-conteiner-2">
-            <p class="v-par-3">2 часа</p>
-            <p class="v-par-4" id="dlit">Длительность каждого занятия</p>
+            <p class="v-par-3" id="chasa">2 часа</p>
+            <p class="v-par-4" id="kazhd">Длительность каждого занятия</p>
           </div>
           <div id="v-sub-conteiner-3">
             <p class="v-par-3" id="nedel">3 недели</p>
-            <p class="v-par-4" id="dlitcurs">Длительность курса</p>
+            <p class="v-par-4" id="kurdlit">Длительность курса</p>
           </div>
         </div>
       </div>
@@ -83,11 +83,12 @@
         </div>
         <div id="v-sub-center-2">
           <p class="v-par-center-1" id="dostup">Доступ навсегда</p>
-          <p class="v-par-center-2">Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете</p>
+          <p class="v-par-center-2" id="dostup2">Если вы не успели на вебинар, всегда можете посмотреть запись в личном
+            кабинете</p>
         </div>
         <div id="v-sub-center-3">
-          <p class="v-par-center-1">Общение</p>
-          <p class="v-par-center-2">Вы можете задать вопрос
+          <p class="v-par-center-1" id="obshenie">Общение</p>
+          <p class="v-par-center-2" id="obshenie2">Вы можете задать вопрос
             преподавателю на занятии</p>
         </div>
       </div>
@@ -121,7 +122,7 @@
     </div>
     <div class="a-super-container">
       <div class="a-big-container-1">
-        <div class="a-item">
+        <div class="a-item" id="oneC">
           <img class="a-item-avatar" src="pic/item-1.svg" alt="Картинка курса">
           <h2 class="a-item-name">1. Как создают кино</h2>
           <p class="a-date-item">8 сентября 20:00</p>
@@ -133,25 +134,25 @@
           <p class="a-date-item">10 сентября 20:00</p>
           <p class="a-autor-item">Данила Кузнецов</p>
         </div>
-        <div class="a-item">
-          <img class="a-item-avatar" src="pic/item-3.svg" alt="Картинка курса">
-          <h2 class="a-item-name">3. Взгляд режиссёра</h2>
-          <p class="a-date-item">13 сентября 13:00</p>
-          <p class="a-autor-item">Данила Кузнецов</p>
+        <div class="a-item" id="rezhitem">
+          <img class="a-item-avatar" id="rezh" src="pic/item-3.svg" alt="Картинка курса">
+          <h2 class="a-item-name" id="rezh1">3. Взгляд режиссёра</h2>
+          <p class="a-date-item" id="rezh2">13 сентября 13:00</p>
+          <p class="a-autor-item" id="rezh3">Данила Кузнецов</p>
         </div>
-        <div class="a-item">
+        <div class="a-item1">
           <img class="a-item-avatar" src="pic/item-4.svg" alt="Картинка курса">
           <h2 class="a-item-name">4. Взгляд монтажёра</h2>
           <p class="a-date-item">15 сентября 20:00</p>
           <p class="a-autor-item">Данила Кузнецов</p>
         </div>
-        <div class="a-item">
+        <div class="a-item1" id="zhanr">
           <img class="a-item-avatar" src="pic/item-5.svg" alt="Картинка курса">
           <h2 class="a-item-name">5. Жанры в кино</h2>
           <p class="a-date-item">17 сентября 20:00</p>
           <p class="a-autor-item">Данила Кузнецов</p>
         </div>
-        <div class="a-item">
+        <div class="a-item1" id="seminar">
           <img class="a-item-avatar" src="pic/item-6.svg" alt="Картинка курса">
           <h2 class="a-item-name">6. Язык кино. Семинар</h2>
           <p class="a-date-item">20 сентября 13:00</p>
@@ -159,13 +160,13 @@
         </div>
       </div>
       <div class="a-big-container-2">
-        <div class="a-item">
+        <div class="a-item2">
           <img class="a-item-avatar" src="pic/item-7.svg" alt="Картинка курса">
-          <h2 class="a-item-name">7. Взгляд кинокритика</h2>
+          <h2 class="a-item-name" id="vzglyad">7. Взгляд кинокритика</h2>
           <p class="a-date-item">21 сентября 19:00</p>
           <p class="a-autor-item">Дмитрий Скворцов</p>
         </div>
-        <div class="a-item">
+        <div class="a-item2" id="a-item2">
           <img class="a-item-avatar" src="pic/item-8.svg" alt="Картинка курса">
           <h2 class="a-item-name" id="big-size-name">8. Осознанный зритель. Семинар</h2>
           <p class="a-date-item" id="big-size-date">22 сентября 19:00</p>
@@ -177,11 +178,13 @@
     <div class="a-course-authors">
       <h2 class="a-course-name" id="ak">Авторы курса</h2>
       <div class="a-author" id="dk">
-        <img id="a-ava-author" src="pic/danilaKuznetsov.svg" alt="Автор курса - Данила Кузнецов">
+        <img class="a-ava-author" src="pic/danilaKuznetsov.svg" alt="Автор курса - Данила Кузнецов">
+        <h3 class="a-author-name">Данила Кузнецов</h3>
+        <p class="a-about-the-author" id="dka">режиссёр, историк кино</p>
         <div class="a-name-about">
-          <h3 class="a-author-name" id="one">Данила Кузнецов</h3>
-          <p class="a-about-the-author" id="dka">режиссёр, историк кино</p>
-        </div>        
+          <h3 class="a-author-name2" id="one">Данила Кузнецов</h3>
+          <p class="a-about-the-author2" id="dka">режиссёр, историк кино</p>
+        </div>
         <div class="hov" id="dkh">
           <img class="znak" id="dki" src="pic/i-mini.svg" alt="картинка восклицательного знака">
           <p class="a-about-the-author-full" id="p-1">Читает лекции и курсы в РАНХиГС.<br> Занимается режиссированием и
@@ -192,22 +195,24 @@
         </div>
       </div>
       <div>
-        <p id= 'avtor-description'>
+        <p id='avtor-description'>
           Читает лекции и курсы в РАНХиГС. Занимается режиссированием и
-           монтажом документальных фильмов. 
-           Член Союза кинематографистов РФ.
+          монтажом документальных фильмов.
+          Член Союза кинематографистов РФ.
         </p>
-        <p id= 'avtor-description'>
-          Окончил МГУ им.          
-          Ломоносова  (исторический факультет), аспирантуру  института востоковедения РАН,
-          Высшие  курсы сценаристов и режиссёров.
+        <p id='avtor-description'>
+          Окончил МГУ им.
+          Ломоносова (исторический факультет), аспирантуру института востоковедения РАН,
+          Высшие курсы сценаристов и режиссёров.
         </p>
       </div>
       <div class="a-author" id="ds">
-        <img id="avads"class="a-ava-author" src="pic/dmitriySkvortsov.svg" alt="Автор курса - Данила Кузнецов">
+        <img id="avads" class="a-ava-author1" src="pic/dmitriySkvortsov.svg" alt="Автор курса - Данила Кузнецов">
+        <h3 class="a-author-name1">Данила Кузнецов</h3>
+        <p class="a-about-the-author" id="dsa">кандидат философских наук, специалист <br> по герменевтике киноязыкао</p>
         <div class="a-name-about">
-          <h3 class="a-author-name">Данила Кузнецов</h3>
-          <p class="a-about-the-author" id="dsa">кандидат философских наук, специалист <br> по герменевтике киноязыкао
+          <h3 class="a-author-name2">Данила Кузнецов</h3>
+          <p class="a-about-the-author2" id="dsa">кандидат философских наук, специалист <br> по герменевтике киноязыкао
           </p>
         </div>
         <div class="hov" id="dsh">
@@ -222,21 +227,19 @@
           </div>
         </div>
       </div>
-      <div id= 'div-avtor-description-2'>
-        <p id= 'avtor-description-2'>
-          Окончил аспирантуру ВГСПУ  (Волгоградский государственный 
-            социально-педагогический университет)
-            по специальности «Философия». Защитил диссертацию, посвященную  образному мышлению. 
+      <div id='div-avtor-description-2'>
+        <p id='avtor-description-2'>
+          Окончил аспирантуру ВГСПУ (Волгоградский государственный
+          социально-педагогический университет)
+          по специальности «Философия». Защитил диссертацию, посвященную образному мышлению.
         </p>
-        <p id= 'avtor-description-2'>
-          Преподает философию в  ВГСПУ.
-            Сооснователь проекта  «Интеллектуальные среды» в  Волгограде — это встречи и лекции по 
-            искусству, философии, литературе.
-            Занимается философией кино, герменевтикой киноязыка.
+        <p id='avtor-description-2'>
+          Преподает философию в ВГСПУ.
+          Сооснователь проекта «Интеллектуальные среды» в Волгограде — это встречи и лекции по
+          искусству, философии, литературе.
+          Занимается философией кино, герменевтикой киноязыка.
         </p>
-      </div>  
-    </div>
-    </div>
+      </div>
     </div>
   </section>
   <!--   Захар -->
