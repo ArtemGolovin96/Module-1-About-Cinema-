@@ -2297,4 +2297,22 @@ footer{
         height: 8px;
         margin-right: 0px;
     }
+ 
+    #avtor-description {
+    font-size: 10px;
+    display: block;
+    margin: 10px 0 14px 87px;
+    width: 62%;
+    font-family: 'Roboto', sans-serif;
+  }
+ 
+  #avtor-description {
+    font-size: 10px;
+    display: block;
+    margin: 10px 0 14px 87px;
+    width: 62%;
+    font-family: 'Roboto', sans-serif;
+  }
+ 
+ 
 }
