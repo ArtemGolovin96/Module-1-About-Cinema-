@@ -1481,9 +1481,10 @@ footer{
         position: relative;
         top: -25px;
         left: -390px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         font-size: 10px;
         width: 180px;
+        heigth: 160px;
     }
     #dsh.hov:hover .a-about-the-author-full {
         display: block;
