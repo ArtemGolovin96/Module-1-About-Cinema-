@@ -1246,18 +1246,18 @@ footer{
 
     div#dkh.hov {
         position: absolute;
-        left: 547px;
+        left: 205px;
         width: 58px;
         height: 58px;
-        top: -219px;
+        top: -269px;
     }
 
     div#dsh.hov {
         position: absolute;
-        left: 860px;
+        left: 1200px;
         width: 58px;
         height: 58px;
-        top: -350px;
+        top: -310px;
     }
 
     #avtor-description {
@@ -1479,8 +1479,8 @@ footer{
         border-radius: 30px;
         box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
         position: relative;
-        top: -25px;
-        left: -390px;
+        top: 25px;
+        left: -50px;
         margin-bottom: 50px;
         font-size: 10px;
         width: 180px;
@@ -1492,8 +1492,8 @@ footer{
         border-radius: 30px;
         box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
         position: relative;
-        bottom: 235px;
-        right: 510px;
+        bottom: 280px;
+        right: 850px;
         margin-bottom: 50px;
         font-size: 10px;
         width: 180px;
