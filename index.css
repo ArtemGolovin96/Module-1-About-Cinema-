@@ -1484,7 +1484,6 @@ footer{
         margin-bottom: 50px;
         font-size: 10px;
         width: 180px;
-        heigth: 160px;
     }
     #dsh.hov:hover .a-about-the-author-full {
         display: block;
@@ -1497,6 +1496,8 @@ footer{
         right: 850px;
         margin-bottom: 50px;
         font-size: 10px;
+        width: 180px;
+        height: 175px;
     }
 
 } 
